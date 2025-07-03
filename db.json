@@ -5,7 +5,7 @@
       "name": "Motorola ES400",
       "price": 12.99,
       "description": "Protective case for wireless earbuds.",
-      "imgUrl": "/src/assets/001.jpg",
+      "imgUrl": "/images/001.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -22,7 +22,7 @@
       "name": "vivo V9 Youth",
       "price": 45.99,
       "description": "Eco-friendly charger with a built-in solar panel for outdoor use.",
-      "imgUrl": "/src/assets/002.jpg",
+      "imgUrl": "/images/002.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -39,7 +39,7 @@
       "name": "Archos Diamond Omega",
       "price": 99.99,
       "description": "Advanced wristband that tracks daily activities and sleep.",
-      "imgUrl": "/src/assets/003.jpg",
+      "imgUrl": "/images/003.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -56,7 +56,7 @@
       "name": "Motorola DEXT MB220",
       "price": 49.99,
       "description": "Bluetooth scale that tracks body composition through an app.",
-      "imgUrl": "/src/assets/004.jpg",
+      "imgUrl": "/images/004.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -73,7 +73,7 @@
       "name": "Nokia 2660",
       "price": 5.99,
       "description": "Savory sausage links with a hint of maple flavor.",
-      "imgUrl": "/src/assets/005.jpg",
+      "imgUrl": "/images/005.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -90,7 +90,7 @@
       "name": "Motorola Moto G Dual SIM",
       "price": 3.49,
       "description": "Fresh Brussels sprouts, great for roasting or steaming.",
-      "imgUrl": "/src/assets/006.jpg",
+      "imgUrl": "/images/006.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -107,7 +107,7 @@
       "name": "Ericsson A2628",
       "price": 149.99,
       "description": "Wi-Fi enabled thermostat for energy-saving temperature control.",
-      "imgUrl": "/src/assets/007.jpg",
+      "imgUrl": "/images/007.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -124,7 +124,7 @@
       "name": "Infinix S5 Pro (16+32)",
       "price": 22.99,
       "description": "Stylish stand to hold your recipes while cooking.",
-      "imgUrl": "/src/assets/008.jpg",
+      "imgUrl": "/images/008.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -141,7 +141,7 @@
       "name": "Samsung P6210 Galaxy Tab 7.0 Plus",
       "price": 79.99,
       "description": "Easy-to-use portable grill for barbecues.",
-      "imgUrl": "/src/assets/009.jpg",
+      "imgUrl": "/images/009.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -158,7 +158,7 @@
       "name": "Nokia 8210",
       "price": 34.99,
       "description": "Eco-friendly bamboo cutting boards in various sizes.",
-      "imgUrl": "/src/assets/010.jpg",
+      "imgUrl": "/images/010.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -175,7 +175,7 @@
       "name": "Huawei Y5 (2017)",
       "price": 19.99,
       "description": "Colorful LED strip lights for home decoration.",
-      "imgUrl": "/src/assets/011.jpg",
+      "imgUrl": "/images/011.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -192,7 +192,7 @@
       "name": "Panasonic P95",
       "price": 3.79,
       "description": "Artichoke hearts marinated in herbs and oil.",
-      "imgUrl": "/src/assets/012.jpg",
+      "imgUrl": "/images/012.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -209,7 +209,7 @@
       "name": "Samsung C3752",
       "price": 59.99,
       "description": "Electric indoor grill for quick meals.",
-      "imgUrl": "/src/assets/013.jpg",
+      "imgUrl": "/images/013.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -226,7 +226,7 @@
       "name": "LG KF300",
       "price": 149.99,
       "description": "Lightweight leaf blower for maintaining outdoor spaces.",
-      "imgUrl": "/src/assets/014.jpg",
+      "imgUrl": "/images/014.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -243,7 +243,7 @@
       "name": "ZTE Blade A3 (2019)",
       "price": 7.49,
       "description": "Tofu stir-fried with fresh vegetables in teriyaki sauce.",
-      "imgUrl": "/src/assets/015.jpg",
+      "imgUrl": "/images/015.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -260,7 +260,7 @@
       "name": "Samsung Galaxy Note Pro 12.2 LTE",
       "price": 6.99,
       "description": "A mix of fresh vegetables with a savory stir-fry sauce, ready to cook.",
-      "imgUrl": "/src/assets/016.jpg",
+      "imgUrl": "/images/016.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -277,7 +277,7 @@
       "name": "Lenovo Tab M8 (FHD)",
       "price": 34.99,
       "description": "Rechargeable lantern with multiple brightness settings for outdoors.",
-      "imgUrl": "/src/assets/001.jpg",
+      "imgUrl": "/images/001.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -294,7 +294,7 @@
       "name": "LG KE600",
       "price": 3.99,
       "description": "A ready-to-eat soup with coconut milk, spices, and vegetables.",
-      "imgUrl": "/src/assets/002.jpg",
+      "imgUrl": "/images/002.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -311,7 +311,7 @@
       "name": "Samsung Metro 312",
       "price": 99.99,
       "description": "Compact wireless printer for home use.",
-      "imgUrl": "/src/assets/003.jpg",
+      "imgUrl": "/images/003.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -328,7 +328,7 @@
       "name": "BLU Dash M",
       "price": 4.99,
       "description": "Natural honey sourced from wildflowers.",
-      "imgUrl": "/src/assets/004.jpg",
+      "imgUrl": "/images/004.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -345,7 +345,7 @@
       "name": "Nokia 8800",
       "price": 39.99,
       "description": "Eco-friendly yoga mat made from sustainable materials.",
-      "imgUrl": "/src/assets/005.jpg",
+      "imgUrl": "/images/005.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -362,7 +362,7 @@
       "name": "Spice M-5180",
       "price": 35.99,
       "description": "Classic A-line skirt that flatters every figure, perfect for work or play.",
-      "imgUrl": "/src/assets/006.jpg",
+      "imgUrl": "/images/006.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -379,7 +379,7 @@
       "name": "Huawei P Smart S",
       "price": 24.99,
       "description": "Relieve muscle tension and soreness with this foam roller.",
-      "imgUrl": "/src/assets/007.jpg",
+      "imgUrl": "/images/007.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -396,7 +396,7 @@
       "name": "i-mobile 625",
       "price": 24.99,
       "description": "Non-stick and reusable mats for easy baking.",
-      "imgUrl": "/src/assets/008.jpg",
+      "imgUrl": "/images/008.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -413,7 +413,7 @@
       "name": "NEC DB5000",
       "price": 22,
       "description": "Eco-friendly bamboo cutting board for food prep.",
-      "imgUrl": "/src/assets/009.jpg",
+      "imgUrl": "/images/009.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -430,7 +430,7 @@
       "name": "Sony Ericsson Xperia pro",
       "price": 19.99,
       "description": "Self-cleaning grooming brush for cats and dogs.",
-      "imgUrl": "/src/assets/010.jpg",
+      "imgUrl": "/images/010.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -447,7 +447,7 @@
       "name": "Bird S668",
       "price": 3.49,
       "description": "Savory sauce for vegetable and meat stir-fries.",
-      "imgUrl": "/src/assets/011.jpg",
+      "imgUrl": "/images/011.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -464,7 +464,7 @@
       "name": "Nokia C2-06",
       "price": 29.99,
       "description": "Soft flannel shirt with a timeless plaid pattern, perfect for layering.",
-      "imgUrl": "/src/assets/012.jpg",
+      "imgUrl": "/images/012.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -481,7 +481,7 @@
       "name": "Nokia 3310 4G",
       "price": 29.99,
       "description": "Compact yoga mat that folds for easy storage and transport.",
-      "imgUrl": "/src/assets/013.jpg",
+      "imgUrl": "/images/013.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -498,7 +498,7 @@
       "name": "Realme 6i (India)",
       "price": 99.99,
       "description": "Durable high-top leather boots for the stylish adventurer.",
-      "imgUrl": "/src/assets/014.jpg",
+      "imgUrl": "/images/014.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -515,7 +515,7 @@
       "name": "Infinix Hot 10 Play",
       "price": 3.99,
       "description": "No-bake energy balls made with oats, chocolate chips, and honey.",
-      "imgUrl": "/src/assets/015.jpg",
+      "imgUrl": "/images/015.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -532,7 +532,7 @@
       "name": "Sony Ericsson K660",
       "price": 39.99,
       "description": "Convenient feeder that adjusts to your pet's height.",
-      "imgUrl": "/src/assets/016.jpg",
+      "imgUrl": "/images/016.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -549,7 +549,7 @@
       "name": "Orange Stockholm",
       "price": 2.99,
       "description": "Crunchy croutons with a blend of herbs for salads.",
-      "imgUrl": "/src/assets/001.jpg",
+      "imgUrl": "/images/001.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -566,7 +566,7 @@
       "name": "vivo Z1x",
       "price": 2.99,
       "description": "A spice blend for making flavorful chili con carne.",
-      "imgUrl": "/src/assets/002.jpg",
+      "imgUrl": "/images/002.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -583,7 +583,7 @@
       "name": "Tecno Spark 3 Pro",
       "price": 3.99,
       "description": "Crispy and crunchy snack made from assorted vegetables.",
-      "imgUrl": "/src/assets/003.jpg",
+      "imgUrl": "/images/003.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -600,7 +600,7 @@
       "name": "Celkon C70",
       "price": 3.49,
       "description": "Oats and honey bars with a chewy texture and nutty flavor.",
-      "imgUrl": "/src/assets/004.jpg",
+      "imgUrl": "/images/004.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -617,7 +617,7 @@
       "name": "Nokia 8210",
       "price": 6.49,
       "description": "Traditional basil pesto made with extra virgin olive oil.",
-      "imgUrl": "/src/assets/005.jpg",
+      "imgUrl": "/images/005.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -634,7 +634,7 @@
       "name": "Infinix Zero 8i",
       "price": 2.99,
       "description": "Soft and fresh sliced bread, perfect for sandwiches.",
-      "imgUrl": "/src/assets/006.jpg",
+      "imgUrl": "/images/006.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -651,7 +651,7 @@
       "name": "Lenovo ZUK Edge",
       "price": 1.99,
       "description": "Pitted black olives, perfect for salads and pizzas.",
-      "imgUrl": "/src/assets/007.jpg",
+      "imgUrl": "/images/007.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -668,7 +668,7 @@
       "name": "Mitsubishi Trium Sirius",
       "price": 29.99,
       "description": "Soft flannel shirt with a timeless plaid pattern, perfect for layering.",
-      "imgUrl": "/src/assets/008.jpg",
+      "imgUrl": "/images/008.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -685,7 +685,7 @@
       "name": "ZTE Grand X LTE T82",
       "price": 5.99,
       "description": "Tender beef chunks for slow-cooked stews.",
-      "imgUrl": "/src/assets/009.jpg",
+      "imgUrl": "/images/009.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -702,7 +702,7 @@
       "name": "Maxwest Astro 4.5",
       "price": 149.99,
       "description": "Stylish bar stools with adjustable height and swivel features.",
-      "imgUrl": "/src/assets/010.jpg",
+      "imgUrl": "/images/010.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -719,7 +719,7 @@
       "name": "Kyocera DuraForce",
       "price": 29.99,
       "description": "Organizational cubes for easy packing and travel.",
-      "imgUrl": "/src/assets/011.jpg",
+      "imgUrl": "/images/011.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -736,7 +736,7 @@
       "name": "Bosch 909 Dual",
       "price": 99.99,
       "description": "Multifunctional smartwatch for fitness tracking.",
-      "imgUrl": "/src/assets/012.jpg",
+      "imgUrl": "/images/012.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -753,7 +753,7 @@
       "name": "LG LG-600",
       "price": 5.49,
       "description": "Spicy and smoky sausage great for grilling.",
-      "imgUrl": "/src/assets/013.jpg",
+      "imgUrl": "/images/013.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -770,7 +770,7 @@
       "name": "HTC Desire 520",
       "price": 1.49,
       "description": "Refreshing sparkling water with cucumber and lime flavor.",
-      "imgUrl": "/src/assets/014.jpg",
+      "imgUrl": "/images/014.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -787,7 +787,7 @@
       "name": "Samsung C3300K Champ",
       "price": 19.99,
       "description": "Sleek and protective sleeve for laptops and tablets.",
-      "imgUrl": "/src/assets/015.jpg",
+      "imgUrl": "/images/015.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -804,7 +804,7 @@
       "name": "LG Lucid2 VS870",
       "price": 8.49,
       "description": "Fresh walnut halves for baking or snacking.",
-      "imgUrl": "/src/assets/016.jpg",
+      "imgUrl": "/images/016.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -821,7 +821,7 @@
       "name": "Spice Smart Flo 503 (Mi-503)",
       "price": 29.99,
       "description": "Personalized wooden puzzles for children that encourage learning.",
-      "imgUrl": "/src/assets/001.jpg",
+      "imgUrl": "/images/001.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -838,7 +838,7 @@
       "name": "vivo Y31",
       "price": 3.99,
       "description": "Tangy vinaigrette with orange and ginger flavors.",
-      "imgUrl": "/src/assets/002.jpg",
+      "imgUrl": "/images/002.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -855,7 +855,7 @@
       "name": "LG Zone 4",
       "price": 34.99,
       "description": "Plant-based protein powder for post-workout recovery.",
-      "imgUrl": "/src/assets/003.jpg",
+      "imgUrl": "/images/003.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -872,7 +872,7 @@
       "name": "Samsung Impact sf",
       "price": 3.99,
       "description": "Gluten-free pasta made from red lentils, packed with protein.",
-      "imgUrl": "/src/assets/004.jpg",
+      "imgUrl": "/images/004.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -889,7 +889,7 @@
       "name": "Spice Mi-502n Smart FLO Pace3",
       "price": 2.99,
       "description": "Hearty minestrone soup loaded with vegetables and pasta.",
-      "imgUrl": "/src/assets/005.jpg",
+      "imgUrl": "/images/005.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -906,7 +906,7 @@
       "name": "alcatel Idol Mini",
       "price": 89,
       "description": "Instant pressure cooker with multiple cooking settings.",
-      "imgUrl": "/src/assets/006.jpg",
+      "imgUrl": "/images/006.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -923,7 +923,7 @@
       "name": "verykool s5036 Apollo",
       "price": 19.99,
       "description": "Fun and educational puzzle set for kids.",
-      "imgUrl": "/src/assets/007.jpg",
+      "imgUrl": "/images/007.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -940,7 +940,7 @@
       "name": "Sagem MY X6-2",
       "price": 5.99,
       "description": "A hearty vegetable curry for a quick and satisfying meal.",
-      "imgUrl": "/src/assets/008.jpg",
+      "imgUrl": "/images/008.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -957,7 +957,7 @@
       "name": "Nokia Lumia 710",
       "price": 4.29,
       "description": "Chickpeas mixed with fresh vegetables and herbs, a nutritious snack or salad.",
-      "imgUrl": "/src/assets/009.jpg",
+      "imgUrl": "/images/009.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -974,7 +974,7 @@
       "name": "Plum Axe Plus 2",
       "price": 7.99,
       "description": "Coffee blend infused with pumpkin spice, perfect for fall.",
-      "imgUrl": "/src/assets/010.jpg",
+      "imgUrl": "/images/010.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -991,7 +991,7 @@
       "name": "LG T515 Cookie Duo",
       "price": 2.49,
       "description": "Rich coconut milk for curries and desserts.",
-      "imgUrl": "/src/assets/011.jpg",
+      "imgUrl": "/images/011.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -1008,7 +1008,7 @@
       "name": "alcatel OT-C551",
       "price": 49.99,
       "description": "Water bottle with built-in UV-C light for self-cleaning.",
-      "imgUrl": "/src/assets/012.jpg",
+      "imgUrl": "/images/012.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -1025,7 +1025,7 @@
       "name": "Celkon C339",
       "price": 2.99,
       "description": "Soft pita bread, perfect for sandwiches or dips.",
-      "imgUrl": "/src/assets/013.jpg",
+      "imgUrl": "/images/013.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -1042,7 +1042,7 @@
       "name": "Honor Play 8A",
       "price": 2.29,
       "description": "Authentic Italian pasta, perfect for a classic meal.",
-      "imgUrl": "/src/assets/014.jpg",
+      "imgUrl": "/images/014.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -1059,7 +1059,7 @@
       "name": "Samsung C3322",
       "price": 2.99,
       "description": "Popcorn tossed with sweet or savory flavors for a tasty snack.",
-      "imgUrl": "/src/assets/015.jpg",
+      "imgUrl": "/images/015.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1076,7 +1076,7 @@
       "name": "Spice M-5161n",
       "price": 4.99,
       "description": "Gluten-free pasta made from lentils, high in protein.",
-      "imgUrl": "/src/assets/016.jpg",
+      "imgUrl": "/images/016.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1093,7 +1093,7 @@
       "name": "Samsung Convoy 2",
       "price": 6.99,
       "description": "Unsweetened frozen acai purée for smoothies and bowls.",
-      "imgUrl": "/src/assets/001.jpg",
+      "imgUrl": "/images/001.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1110,7 +1110,7 @@
       "name": "Haier U69",
       "price": 59.99,
       "description": "A fitted ribbed knit dress that hugs your curves perfectly.",
-      "imgUrl": "/src/assets/002.jpg",
+      "imgUrl": "/images/002.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -1127,7 +1127,7 @@
       "name": "Lava A48",
       "price": 2.49,
       "description": "A creamy blend of avocados and lime juice, great for spreads or dips.",
-      "imgUrl": "/src/assets/003.jpg",
+      "imgUrl": "/images/003.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1144,7 +1144,7 @@
       "name": "Wiko Harry",
       "price": 19.99,
       "description": "Organize your board games with this storage bin.",
-      "imgUrl": "/src/assets/004.jpg",
+      "imgUrl": "/images/004.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1161,7 +1161,7 @@
       "name": "O2 XDA Stellar",
       "price": 89.99,
       "description": "Indoor Wi-Fi camera for home security.",
-      "imgUrl": "/src/assets/005.jpg",
+      "imgUrl": "/images/005.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -1178,7 +1178,7 @@
       "name": "Unnecto Quattro X",
       "price": 24.99,
       "description": "Double-walled mug to keep your drink hot for longer.",
-      "imgUrl": "/src/assets/006.jpg",
+      "imgUrl": "/images/006.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1195,7 +1195,7 @@
       "name": "Pantech Breeze IV",
       "price": 18.99,
       "description": "Space-saving crates for easy organization at home or while traveling.",
-      "imgUrl": "/src/assets/007.jpg",
+      "imgUrl": "/images/007.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -1212,7 +1212,7 @@
       "name": "Samsung Galaxy S8 Active",
       "price": 12.99,
       "description": "Effective laundry detergent for a deep clean.",
-      "imgUrl": "/src/assets/008.jpg",
+      "imgUrl": "/images/008.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -1229,7 +1229,7 @@
       "name": "Motorola MILESTONE 3 XT860",
       "price": 22.99,
       "description": "Handmade eco-friendly bowls made from real coconuts.",
-      "imgUrl": "/src/assets/009.jpg",
+      "imgUrl": "/images/009.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1246,7 +1246,7 @@
       "name": "Nokia 6085",
       "price": 34.99,
       "description": "Everything you need for maintaining a healthy beard.",
-      "imgUrl": "/src/assets/010.jpg",
+      "imgUrl": "/images/010.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -1263,7 +1263,7 @@
       "name": "ZTE Blade V9 Vita",
       "price": 2.49,
       "description": "Flavorful sauce perfect for stir-frying vegetables and tofu.",
-      "imgUrl": "/src/assets/011.jpg",
+      "imgUrl": "/images/011.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1280,7 +1280,7 @@
       "name": "Allview P4 eMagic",
       "price": 59.99,
       "description": "Wheeled cooler for transporting drinks and snacks.",
-      "imgUrl": "/src/assets/012.jpg",
+      "imgUrl": "/images/012.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -1297,7 +1297,7 @@
       "name": "Micromax A092 Unite",
       "price": 4.49,
       "description": "Crunchy granola with chocolate and hazelnuts for breakfast.",
-      "imgUrl": "/src/assets/013.jpg",
+      "imgUrl": "/images/013.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -1314,7 +1314,7 @@
       "name": "Huawei Y8s",
       "price": 11.99,
       "description": "Natural elderberry syrup to boost immunity.",
-      "imgUrl": "/src/assets/014.jpg",
+      "imgUrl": "/images/014.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -1331,7 +1331,7 @@
       "name": "XOLO A1000s",
       "price": 49.99,
       "description": "Portable car vacuum cleaner with strong suction.",
-      "imgUrl": "/src/assets/015.jpg",
+      "imgUrl": "/images/015.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1348,7 +1348,7 @@
       "name": "Haier L7",
       "price": 79.99,
       "description": "Water-resistant activity tracker and smartwatch features.",
-      "imgUrl": "/src/assets/016.jpg",
+      "imgUrl": "/images/016.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1365,7 +1365,7 @@
       "name": "Micromax X267",
       "price": 34.99,
       "description": "Rechargeable LED lantern ideal for camping and outdoor activities.",
-      "imgUrl": "/src/assets/001.jpg",
+      "imgUrl": "/images/001.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -1382,7 +1382,7 @@
       "name": "HTC Desire 526G+ dual sim ",
       "price": 5.99,
       "description": "A nutritious quinoa salad with veggies and dressing, ready-to-eat.",
-      "imgUrl": "/src/assets/002.jpg",
+      "imgUrl": "/images/002.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -1399,7 +1399,7 @@
       "name": "Samsung Galaxy J7 Prime 2",
       "price": 3.59,
       "description": "A spicy glaze made with sriracha and honey, perfect for meats.",
-      "imgUrl": "/src/assets/003.jpg",
+      "imgUrl": "/images/003.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1416,7 +1416,7 @@
       "name": "Panasonic Eluga Ray",
       "price": 5.99,
       "description": "Fruits dipped in rich chocolate, perfect for desserts.",
-      "imgUrl": "/src/assets/004.jpg",
+      "imgUrl": "/images/004.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1433,7 +1433,7 @@
       "name": "Apple Watch Edition 38mm (1st gen)",
       "price": 29.99,
       "description": "Portable ring light that enhances your photos with perfect lighting.",
-      "imgUrl": "/src/assets/005.jpg",
+      "imgUrl": "/images/005.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1450,7 +1450,7 @@
       "name": "alcatel OT-710",
       "price": 1.99,
       "description": "Creamy Greek yogurt packed with protein and probiotics.",
-      "imgUrl": "/src/assets/006.jpg",
+      "imgUrl": "/images/006.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -1467,7 +1467,7 @@
       "name": "Samsung Galaxy Tab Active",
       "price": 2.49,
       "description": "Instant oatmeal flavored with cranberries and orange zest for breakfast.",
-      "imgUrl": "/src/assets/007.jpg",
+      "imgUrl": "/images/007.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -1484,7 +1484,7 @@
       "name": "Panasonic GD67",
       "price": 3.79,
       "description": "Creamy and smooth peanut butter, perfect for sandwiches.",
-      "imgUrl": "/src/assets/008.jpg",
+      "imgUrl": "/images/008.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1501,7 +1501,7 @@
       "name": "Haier A7",
       "price": 24.99,
       "description": "Connect your phone to the car's audio system via Bluetooth.",
-      "imgUrl": "/src/assets/009.jpg",
+      "imgUrl": "/images/009.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1518,7 +1518,7 @@
       "name": "Motorola MOTOKEY Mini EX108",
       "price": 8.99,
       "description": "Pizza topped with barbecue chicken, cheese, and red onions.",
-      "imgUrl": "/src/assets/010.jpg",
+      "imgUrl": "/images/010.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1535,7 +1535,7 @@
       "name": "Sagem my429x",
       "price": 99.99,
       "description": "Compact and portable projector for watching videos anywhere.",
-      "imgUrl": "/src/assets/011.jpg",
+      "imgUrl": "/images/011.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -1552,7 +1552,7 @@
       "name": "Oppo A71 (2018)",
       "price": 29.99,
       "description": "Set of resistance bands for home workouts.",
-      "imgUrl": "/src/assets/012.jpg",
+      "imgUrl": "/images/012.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1569,7 +1569,7 @@
       "name": "Samsung i740",
       "price": 2.49,
       "description": "Juicy peach slices in syrup, perfect for desserts.",
-      "imgUrl": "/src/assets/013.jpg",
+      "imgUrl": "/images/013.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1586,7 +1586,7 @@
       "name": "Allview X1 Xtreme",
       "price": 29.99,
       "description": "Non-stick utensils for safe and easy cooking.",
-      "imgUrl": "/src/assets/014.jpg",
+      "imgUrl": "/images/014.jpg",
       "key_features": [
         {
           "screen_size": "5.5 inches",
@@ -1603,7 +1603,7 @@
       "name": "LG G7 ThinQ",
       "price": 3.79,
       "description": "Crunchy granola with raisins and cinnamon for a delightful breakfast.",
-      "imgUrl": "/src/assets/015.jpg",
+      "imgUrl": "/images/015.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -1620,7 +1620,7 @@
       "name": "Nokia 111",
       "price": 19.99,
       "description": "Set of roller bottles for blending and applying essential oils.",
-      "imgUrl": "/src/assets/016.jpg",
+      "imgUrl": "/images/016.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
@@ -1637,7 +1637,7 @@
       "name": "Samsung Vodafone 360 H1",
       "price": 3.49,
       "description": "Savory teriyaki sauce for stir-frying veggies or meats.",
-      "imgUrl": "/src/assets/001.jpg",
+      "imgUrl": "/images/001.jpg",
       "key_features": [
         {
           "screen_size": "6 inches",
@@ -1654,7 +1654,7 @@
       "name": "LG Vu 3 F300L",
       "price": 4.49,
       "description": "A tangy marinade for meats and veggies, packed with garlic flavor.",
-      "imgUrl": "/src/assets/002.jpg",
+      "imgUrl": "/images/002.jpg",
       "key_features": [
         {
           "screen_size": "5 inches",
@@ -1671,7 +1671,7 @@
       "name": "Samsung S8600 Wave 3",
       "price": 19.99,
       "description": "USB hub for expanding ports on computers and laptops.",
-      "imgUrl": "/src/assets/003.jpg",
+      "imgUrl": "/images/003.jpg",
       "key_features": [
         {
           "screen_size": "7 inches",
@@ -1688,7 +1688,7 @@
       "name": "Maxon MX-7940",
       "price": 8.49,
       "description": "Fresh walnut halves for baking or snacking.",
-      "imgUrl": "/src/assets/004.jpg",
+      "imgUrl": "/images/004.jpg",
       "key_features": [
         {
           "screen_size": "6.5 inches",
