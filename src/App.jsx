@@ -1,5 +1,7 @@
-import "./App.css";
 import { useProducts } from "./hooks/useProducts";
+import Header from "./layout/Header/Header";
+
+import "./App.css";
 
 const App = () => {
   const { products, loading, error } = useProducts();
@@ -13,6 +15,7 @@ const App = () => {
   }
   return (
     <>
+      <Header />
       <h1>Fingertips Store</h1>
       <ul>
         {products.map((product) => (
