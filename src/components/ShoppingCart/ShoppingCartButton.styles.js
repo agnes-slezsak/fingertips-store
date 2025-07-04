@@ -38,7 +38,7 @@ export const StyledBadge = styled.span`
   font-size: 10px;
   font-weight: bold;
   padding: 2px 6px;
-  display: ${(props) => (props.count > 0 ? "inline-block" : "none")};
+  display: ${(props) => (props.$count > 0 ? "inline-block" : "none")};
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 `;
 

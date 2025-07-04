@@ -14,7 +14,7 @@ const ShoppingCartButton = ({ count = 0, onClick }) => {
     <StyledCartButtonContainer onClick={onClick}>
       <StyledIconContainer>
         <StyledIcon src={CartIcon} alt="Shopping Cart" />
-        <StyledBadge count={count}>{count}</StyledBadge>
+        <StyledBadge $count={count}>{count}</StyledBadge>
       </StyledIconContainer>
       <StyledText>{SHOPPING_CART_BUTTON_TEXT}</StyledText>
     </StyledCartButtonContainer>

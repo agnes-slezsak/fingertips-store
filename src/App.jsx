@@ -1,5 +1,8 @@
-import { useProducts } from "./hooks/useProducts";
+import ProductList from "./components/ProductList";
+import MainContent from "./layout/MainContent/MainContent";
 import Header from "./layout/Header/Header";
+import Footer from "./layout/Footer/Footer";
+import { useProducts } from "./hooks/useProducts";
 
 import "./App.css";
 
@@ -17,13 +20,15 @@ const App = () => {
     <>
       <Header />
       <h1>Fingertips Store</h1>
-      <ul>
-        {products.map((product) => (
-          <li key={product.id}>
-            <h3>{product.name}</h3>
-          </li>
-        ))}
-      </ul>
+      <MainContent>
+        <ProductList
+          products={products}
+          onAddToCart={() => {
+            console.log("Add to cart clicked");
+          }}
+        />
+      </MainContent>
+      <Footer />
     </>
   );
 };
