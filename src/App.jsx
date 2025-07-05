@@ -15,7 +15,7 @@ const StyledPageTitle = styled.h1`
   width: 240px;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #1e1c39;
+  color: ${({ theme }) => theme.colors.primaryDark};
 `;
 
 const STORE_NAME = "Fingertips Store";

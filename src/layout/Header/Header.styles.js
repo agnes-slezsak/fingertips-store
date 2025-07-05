@@ -7,8 +7,8 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2e3b4e;
-  color: #fff;
+  background-color: ${({ theme }) => theme.colors.darkGrey};
+  color: ${({ theme }) => theme.colors.white};
   position: sticky;
   top: 0;
   z-index: 100;
@@ -25,5 +25,5 @@ export const Title = styled.h4`
 
 export const CartContainer = styled.div`
   position: absolute;
-  right: 1em; /* Align the button approximately 1em from the right of the Header */
+  right: 2em;
 `;

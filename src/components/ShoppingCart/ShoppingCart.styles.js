@@ -8,7 +8,7 @@ export const DropdownContainer = styled.div`
   text-align: left;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px ${({ theme }) => theme.colors.shadow};
   width: 300px;
   z-index: 1000;
   display: ${({ $isCartOpen }) =>
@@ -36,7 +36,7 @@ export const DropdownContent = styled.div`
 export const DropdownTitle = styled.h3`
   font-size: 1em;
   font-weight: bold;
-  color: #333;
+  color: ${({ theme }) => theme.colors.darkGrey};
   margin-top: 0;
   margin-bottom: 16px;
 `;
@@ -47,26 +47,26 @@ export const CartTable = styled.table`
   margin-bottom: 16px;
 
   thead {
-    border-top: 2px solid #f2f2f2;
+    border-top: 1px solid ${({ theme }) => theme.colors.lightGrey};
   }
   tbody {
-    border-bottom: 2px solid #f2f2f2;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.lightGrey};
   }
   tbody tr:last-child {
     height: 60px;
-    border-top: 4px solid #f2f2f2;
+    border-top: 2px solid ${({ theme }) => theme.colors.lightGrey};
   }
 `;
 
 export const TableHeader = styled.th`
   text-align: left;
-  color: #555;
+  color: ${({ theme }) => theme.colors.darkGrey};
   font-size: 0.9em;
   padding: 8px 0;
 `;
 
 export const TableData = styled.td`
-  color: #666;
+  color: ${({ theme }) => theme.colors.darkGrey};
   font-size: 0.9em;
   padding: 8px 0;
 `;
@@ -74,13 +74,13 @@ export const TableData = styled.td`
 export const TotalOrderValue = styled.td`
   font-size: 1em;
   font-weight: bold;
-  color: #333;
+  color: ${({ theme }) => theme.colors.darkGrey};
 `;
 
 export const EmptyMessage = styled.p`
   text-align: center;
   font-size: 0.9em;
-  color: #888;
+  color: ${({ theme }) => theme.colors.darkGrey};
 `;
 
 export const CheckoutButtonContainer = styled.div`
@@ -93,13 +93,13 @@ export const StyledCartButtonContainer = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  padding: 0.5em;
+  padding: 0.5em 2em;
   background-color: transparent;
   border-radius: 6px;
   transition: background-color 0.2s ease, transform 0.2s ease;
 
   &:hover {
-    background-color: #34495e;
+    border: 1px solid ${({ theme }) => theme.colors.white};
     transform: scale(1.05);
   }
 `;
@@ -119,26 +119,22 @@ export const StyledBadge = styled.span`
   position: absolute;
   bottom: -5px;
   left: -5px;
-  background-color: #d32f2f;
-  color: #fff;
+  background-color: ${({ theme }) => theme.colors.accentRedBright};
+  color: ${({ theme }) => theme.colors.white};
   border-radius: 50%;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   padding: 2px 6px;
   display: ${(props) => (props.$count > 0 ? "inline-block" : "none")};
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 5px ${({ theme }) => theme.colors.shadow};
 `;
 
 export const StyledText = styled.p`
   margin: 0;
-  margin-left: 12px;
+  margin-left: 20px;
   font-size: 1rem;
-  color: #fff;
+  color: ${({ theme }) => theme.colors.white};
   transition: color 0.2s ease;
-
-  ${StyledCartButtonContainer}:hover & {
-    color: #f1f1f1;
-  }
 
   @media screen and (max-width: 768px) {
     display: none;

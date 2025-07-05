@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledProductCard = styled.div`
   position: relative;
-  border: 1px solid #ddd;
-  background-color: #fcfcfc;
+  border: 1px solid ${({ theme }) => theme.colors.lightGrey};
+  background-color: ${({ theme }) => theme.colors.backgroundLight};
   padding: 1em;
   border-radius: 5px;
   display: flex;
@@ -12,11 +12,11 @@ export const StyledProductCard = styled.div`
   cursor: pointer;
   transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 1px 4px rgba(39, 49, 56, 0.06);
+  box-shadow: 0 1px 4px ${({ theme }) => theme.colors.shadow};
 
   &:hover {
     transform: scale(1.04) translateY(-2px);
-    box-shadow: 0 4px 16px rgba(39, 49, 56, 0.12);
+    box-shadow: 0 4px 16px ${({ theme }) => theme.colors.shadow};
   }
 `;
 
@@ -41,7 +41,7 @@ export const StyledProductTitle = styled.h3`
 export const StyledCardPrice = styled.p`
   margin: 0;
   font-size: 1em;
-  color: #1e1c39;
+  color: ${({ theme }) => theme.colors.primaryDark};
   font-weight: 500;
 `;
 
@@ -51,7 +51,6 @@ export const StyledImageWrapper = styled.div`
   padding: 8px;
   overflow: hidden;
   border-radius: 8px;
-  background: #f5f5f5;
   display: flex;
   align-items: center;
   justify-content: center;

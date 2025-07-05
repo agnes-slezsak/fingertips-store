@@ -10,12 +10,12 @@ export const StyledTooltipModal = styled.div`
     typeof $modalPosition?.left === "number"
       ? `${$modalPosition.left}px`
       : $modalPosition?.left || "20px"};
-  background-color: #fff6e6;
+  background-color: ${({ theme }) => theme.colors.cream};
   opacity: 0.95;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid ${({ theme }) => theme.colors.lightGrey};
   border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  color: #333;
+  box-shadow: 0 4px 16px ${({ theme }) => theme.colors.shadow};
+  color: ${({ theme }) => theme.colors.darkGrey};
   z-index: 10;
   width: 260px;
   font-size: 0.9em;
@@ -29,7 +29,7 @@ export const ModalImage = styled.img`
   height: 70px;
   object-fit: contain;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: ${({ theme }) => theme.colors.backgroundLight};
 `;
 
 export const ModalContent = styled.div`
@@ -41,7 +41,7 @@ export const ModalContent = styled.div`
 export const KeyFeatures = styled.div`
   font-size: 0.85em;
   line-height: 1.6;
-  color: #333;
+  color: ${({ theme }) => theme.colors.darkGrey};
 
   ul {
     list-style-type: none;
@@ -67,7 +67,7 @@ export const StyledModalHeading = styled.h2`
 
 export const StyledModalDescription = styled.p`
   font-size: 12px;
-  color: #666;
+  color: ${({ theme }) => theme.colors.darkGrey};
   margin: 0 0 8px 0;
 `;
 
@@ -79,5 +79,5 @@ export const StyledModalTable = styled.table`
 export const StyledDataCell = styled.td`
   font-size: 12px;
   width: 50%;
-  color: #666;
+  color: ${({ theme }) => theme.colors.darkGrey};
 `;
