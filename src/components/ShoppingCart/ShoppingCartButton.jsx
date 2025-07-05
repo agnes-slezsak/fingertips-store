@@ -5,7 +5,7 @@ import {
   StyledIcon,
   StyledBadge,
   StyledText,
-} from "./ShoppingCartButton.styles";
+} from "./ShoppingCart.styles";
 
 const SHOPPING_CART_BUTTON_TEXT = "Shopping Cart";
 
