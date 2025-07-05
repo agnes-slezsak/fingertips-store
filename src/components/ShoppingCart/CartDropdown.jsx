@@ -14,6 +14,7 @@ import {
 } from "./ShoppingCart.styles";
 import { useClickOutside } from "../../hooks/useClickOutside";
 import { useStore } from "../../store/store";
+import { formatPrice } from "../../utils/formatPrice";
 import Button from "../Button/Button";
 
 const CART_TITLE = (count) =>
@@ -65,13 +66,15 @@ const CartDropdown = () => {
                   <tr key={item.id}>
                     <TableData>{item.name}</TableData>
                     <TableData>{item.units}</TableData>
-                    <TableData>£{item.price}</TableData>
+                    <TableData>{formatPrice(item.price)}</TableData>
                   </tr>
                 ))}
                 <tr>
                   <TotalOrderValue>{TOTAL_ORDER_VALUE}</TotalOrderValue>
                   <TotalOrderValue />
-                  <TotalOrderValue>£{totalOrderValue}</TotalOrderValue>
+                  <TotalOrderValue>
+                    {formatPrice(totalOrderValue)}
+                  </TotalOrderValue>
                 </tr>
               </tbody>
             </CartTable>
