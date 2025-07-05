@@ -1,6 +1,6 @@
+import { StyledDataCell } from "./TooltipModal.styles";
 import { keyFeatureLabels } from "../../utils/consts";
 import { formatBooleanToText } from "../../utils/formatBooleanToText";
-import { StyledDataCell } from "./TooltipModal.styles";
 
 export const KeyFeatureRows = (keyFeatures = {}) => {
   return Object.entries(keyFeatures).map(([key, value]) => {

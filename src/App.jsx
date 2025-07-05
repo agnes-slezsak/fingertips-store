@@ -1,11 +1,12 @@
 import { useState } from "react";
 import styled from "styled-components";
+
 import ProductList from "./components/ProductList/ProductList";
-import MainContent from "./layout/MainContent/MainContent";
-import Header from "./layout/Header/Header";
-import Footer from "./layout/Footer/Footer";
 import CartDropdown from "./components/ShoppingCart/CartDropdown";
 import { useProducts } from "./hooks/useProducts";
+import Footer from "./layout/Footer/Footer";
+import Header from "./layout/Header/Header";
+import MainContent from "./layout/MainContent/MainContent";
 
 import "./App.css";
 

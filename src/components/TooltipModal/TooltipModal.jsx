@@ -1,4 +1,6 @@
 import React from "react";
+
+import { KeyFeatureRows } from "./KeyFeatureRows";
 import {
   StyledTooltipModal,
   ModalImage,
@@ -8,7 +10,6 @@ import {
   StyledModalDescription,
   StyledModalTable,
 } from "./TooltipModal.styles";
-import { KeyFeatureRows } from "./KeyFeatureRows";
 import ModalPortal from "../ModalPortal/ModalPortal";
 
 const MODAL_HEADING_DESCRIPTION = "Description";

@@ -1,4 +1,3 @@
-import CartIcon from "../../assets/cart.svg";
 import {
   StyledCartButtonContainer,
   StyledIconContainer,
@@ -6,6 +5,7 @@ import {
   StyledBadge,
   StyledText,
 } from "./ShoppingCart.styles";
+import CartIcon from "../../assets/cart.svg";
 
 const SHOPPING_CART_BUTTON_TEXT = "Shopping Cart";
 
