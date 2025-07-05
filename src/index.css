@@ -6,7 +6,7 @@ body {
   margin: 0 auto;
   background: url("/bg.png") no-repeat;
   background-size: contain;
-  min-width: 320px;
+  min-width: 100vw;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
 }

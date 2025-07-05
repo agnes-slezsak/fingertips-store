@@ -1,3 +1,5 @@
+import { useRef } from "react";
+
 import {
   DropdownContainer,
   DropdownArrow,
@@ -10,6 +12,8 @@ import {
   TotalOrderValue,
   EmptyMessage,
 } from "./ShoppingCart.styles";
+import { useClickOutside } from "../../hooks/useClickOutside";
+import { useStore } from "../../store/store";
 import Button from "../Button/Button";
 
 const CART_TITLE = (count) =>
@@ -19,18 +23,34 @@ const TOTAL_ORDER_VALUE = "Total Order Value";
 const EMPTY_CART_MESSAGE = "Your cart is empty!";
 const CART_BUTTON_CHECKOUT = "Checkout";
 
-const CartDropdown = ({ items, onCheckout, isCartOpen }) => {
-  const totalOrderValue = items.reduce(
+const CartDropdown = () => {
+  const { cartItems, isCartOpen, setIsCartOpen } = useStore();
+  const dropdownRef = useRef(null);
+
+  useClickOutside(
+    dropdownRef,
+    () => {
+      if (isCartOpen) setIsCartOpen(false);
+    },
+    "[data-ignore-outside-click]"
+  );
+
+  const totalOrderValue = cartItems.reduce(
     (acc, item) => acc + item.price * item.units,
     0
   );
 
+  const handleCheckout = () => {
+    setIsCartOpen(false);
+    alert("Proceeding to checkout...");
+  };
+
   return (
-    <DropdownContainer $isCartOpen={isCartOpen}>
+    <DropdownContainer ref={dropdownRef} $isCartOpen={isCartOpen}>
       <DropdownArrow />
       <DropdownContent>
-        <DropdownTitle>{CART_TITLE(items?.length || 0)}</DropdownTitle>
-        {items.length > 0 ? (
+        <DropdownTitle>{CART_TITLE(cartItems?.length || 0)}</DropdownTitle>
+        {cartItems.length > 0 ? (
           <>
             <CartTable>
               <thead>
@@ -41,7 +61,7 @@ const CartDropdown = ({ items, onCheckout, isCartOpen }) => {
                 </tr>
               </thead>
               <tbody>
-                {items.map((item) => (
+                {cartItems.map((item) => (
                   <tr key={item.id}>
                     <TableData>{item.name}</TableData>
                     <TableData>{item.units}</TableData>
@@ -56,7 +76,7 @@ const CartDropdown = ({ items, onCheckout, isCartOpen }) => {
               </tbody>
             </CartTable>
             <CheckoutButtonContainer>
-              <Button label={CART_BUTTON_CHECKOUT} onClick={onCheckout} />
+              <Button label={CART_BUTTON_CHECKOUT} onClick={handleCheckout} />
             </CheckoutButtonContainer>
           </>
         ) : (

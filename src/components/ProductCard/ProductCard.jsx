@@ -1,6 +1,7 @@
 import CardDetails from "./CardDetails";
 import CardImage from "./CardImage";
 import {
+  StyledButtonWrapper,
   StyledProductCard,
   TooltipWrapper,
   TooltipIcon,
@@ -8,11 +9,18 @@ import {
 import HoverIcon from "../../assets/tooltip-hover.svg";
 import StaticIcon from "../../assets/tooltip-static.svg";
 import { useTooltip } from "../../hooks/useTooltip";
+import { useStore } from "../../store/store";
 import Button from "../Button/Button";
 import TooltipModal from "../TooltipModal/TooltipModal";
 
-const ProductCard = ({ product, onAddToCart }) => {
+const ProductCard = ({ product }) => {
   const { ref, position, isVisible, showTooltip, hideTooltip } = useTooltip();
+  const { addItemToCart } = useStore();
+
+  const handleAddToCart = (e) => {
+    e.stopPropagation();
+    addItemToCart(product);
+  };
 
   return (
     <StyledProductCard>
@@ -31,7 +39,9 @@ const ProductCard = ({ product, onAddToCart }) => {
       </TooltipWrapper>
       <CardImage src={product.imgUrl} alt={product.name} />
       <CardDetails name={product.name} price={product.price} />
-      <Button label="Add to Cart" onClick={() => onAddToCart(product)} />
+      <StyledButtonWrapper data-ignore-outside-click>
+        <Button label="Add to Cart" onClick={handleAddToCart} />
+      </StyledButtonWrapper>
     </StyledProductCard>
   );
 };

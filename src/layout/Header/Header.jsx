@@ -3,12 +3,12 @@ import ShoppingCartButton from "../../components/ShoppingCart/ShoppingCartButton
 
 const HEADER_TITLE = "Hallo World";
 
-const Header = ({ handleCartClick }) => {
+const Header = () => {
   return (
     <StyledHeader>
       <Title>{HEADER_TITLE.toUpperCase()}</Title>
       <CartContainer>
-        <ShoppingCartButton onClick={handleCartClick} count={2} />
+        <ShoppingCartButton />
       </CartContainer>
     </StyledHeader>
   );

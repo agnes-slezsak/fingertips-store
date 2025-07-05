@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const DropdownContainer = styled.div`
   position: absolute;
+  position: fixed;
   top: 85px;
   right: 20px;
   text-align: left;

@@ -57,6 +57,10 @@ export const StyledImageWrapper = styled.div`
   justify-content: center;
 `;
 
+export const StyledButtonWrapper = styled.div`
+  width: 80%;
+`;
+
 export const TooltipWrapper = styled.div`
   position: absolute;
   top: 8px;

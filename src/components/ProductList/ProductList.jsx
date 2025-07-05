@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+import { useStore } from "../../store/store";
 import ProductCard from "../ProductCard/ProductCard";
 
 const StyledProductList = styled.div`
@@ -9,15 +10,17 @@ const StyledProductList = styled.div`
   padding: 1em;
 `;
 
-const ProductList = ({ products, onAddToCart }) => {
+const ProductList = ({ isLoading }) => {
+  const { productItems = [] } = useStore();
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <StyledProductList>
-      {products.map((product) => (
-        <ProductCard
-          key={product.id}
-          product={product}
-          onAddToCart={onAddToCart}
-        />
+      {productItems.map((product) => (
+        <ProductCard key={product.id} product={product} />
       ))}
     </StyledProductList>
   );

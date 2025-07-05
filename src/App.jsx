@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import styled from "styled-components";
 
 import ProductList from "./components/ProductList/ProductList";
@@ -7,6 +7,7 @@ import { useProducts } from "./hooks/useProducts";
 import Footer from "./layout/Footer/Footer";
 import Header from "./layout/Header/Header";
 import MainContent from "./layout/MainContent/MainContent";
+import { useStore } from "./store/store";
 
 import "./App.css";
 
@@ -17,50 +18,30 @@ const StyledPageTitle = styled.h1`
   color: #1e1c39;
 `;
 
-const cartItems = [
-  { id: 1, name: "Nokia 3210", units: 1, price: 49.99 },
-  { id: 2, name: "Poly Edge B30", units: 1, price: 21.99 },
-];
-
 const STORE_NAME = "Fingertips Store";
 
 const App = () => {
   const { products, loading, error } = useProducts();
-  const [isCartOpen, setIsCartOpen] = useState(false);
+  const { setProductItems } = useStore();
 
-  const handleCheckout = () => {
-    alert("Proceeding to checkout...");
-  };
-
-  const handleCartClick = () => {
-    setIsCartOpen((prev) => !prev);
-  };
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  useEffect(() => {
+    if (products?.length > 0) {
+      setProductItems(products);
+    }
+  }, [products, setProductItems]);
 
   if (error) {
     return <div>Error: {error}</div>;
   }
+
   return (
     <>
-      <Header handleCartClick={handleCartClick} />
+      <Header />
       <StyledPageTitle>{STORE_NAME}</StyledPageTitle>
       <MainContent>
-        <ProductList
-          products={products}
-          onAddToCart={() => {
-            console.log("Add to cart clicked");
-          }}
-        />
+        <ProductList isLoading={loading} />
       </MainContent>
-      <CartDropdown
-        items={cartItems}
-        onCheckout={handleCheckout}
-        isCartOpen={isCartOpen}
-        setIsCartOpen={setIsCartOpen}
-      />
+      <CartDropdown />
       <Footer />
     </>
   );
