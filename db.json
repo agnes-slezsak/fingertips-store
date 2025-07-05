@@ -6,16 +6,14 @@
       "price": 12.99,
       "description": "Protective case for wireless earbuds.",
       "imgUrl": "/images/001.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "4 GB",
-          "camera": "32 MP",
-          "storage": "128 GB",
-          "dual_sim": "true",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "4 GB",
+        "camera": "32 MP",
+        "storage": "128 GB",
+        "dual_sim": "true",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 2,
@@ -23,16 +21,14 @@
       "price": 45.99,
       "description": "Eco-friendly charger with a built-in solar panel for outdoor use.",
       "imgUrl": "/images/002.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "16 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "16 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 3,
@@ -40,16 +36,14 @@
       "price": 99.99,
       "description": "Advanced wristband that tracks daily activities and sleep.",
       "imgUrl": "/images/003.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "4 GB",
-          "camera": "32 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "4 GB",
+        "camera": "32 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 4,
@@ -57,16 +51,14 @@
       "price": 49.99,
       "description": "Bluetooth scale that tracks body composition through an app.",
       "imgUrl": "/images/004.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "5 GB",
-          "camera": "16 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "5 GB",
+        "camera": "16 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 5,
@@ -74,16 +66,14 @@
       "price": 5.99,
       "description": "Savory sausage links with a hint of maple flavor.",
       "imgUrl": "/images/005.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "4 GB",
-          "camera": "24 MP",
-          "storage": "256 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "4 GB",
+        "camera": "24 MP",
+        "storage": "256 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 6,
@@ -91,16 +81,14 @@
       "price": 3.49,
       "description": "Fresh Brussels sprouts, great for roasting or steaming.",
       "imgUrl": "/images/006.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "5 GB",
-          "camera": "24 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "5 GB",
+        "camera": "24 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 7,
@@ -108,16 +96,14 @@
       "price": 149.99,
       "description": "Wi-Fi enabled thermostat for energy-saving temperature control.",
       "imgUrl": "/images/007.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "3 GB",
-          "camera": "8 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "3 GB",
+        "camera": "8 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 8,
@@ -125,16 +111,14 @@
       "price": 22.99,
       "description": "Stylish stand to hold your recipes while cooking.",
       "imgUrl": "/images/008.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "8 GB",
-          "camera": "32 MP",
-          "storage": "64 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "8 GB",
+        "camera": "32 MP",
+        "storage": "64 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 9,
@@ -142,16 +126,14 @@
       "price": 79.99,
       "description": "Easy-to-use portable grill for barbecues.",
       "imgUrl": "/images/009.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "8 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "8 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 10,
@@ -159,16 +141,14 @@
       "price": 34.99,
       "description": "Eco-friendly bamboo cutting boards in various sizes.",
       "imgUrl": "/images/010.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "3 GB",
-          "camera": "64 MP",
-          "storage": "64 GB",
-          "dual_sim": "false",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "3 GB",
+        "camera": "64 MP",
+        "storage": "64 GB",
+        "dual_sim": "false",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 11,
@@ -176,16 +156,14 @@
       "price": 19.99,
       "description": "Colorful LED strip lights for home decoration.",
       "imgUrl": "/images/011.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "3 GB",
-          "camera": "16 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "3 GB",
+        "camera": "16 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 12,
@@ -193,16 +171,14 @@
       "price": 3.79,
       "description": "Artichoke hearts marinated in herbs and oil.",
       "imgUrl": "/images/012.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "3 GB",
-          "camera": "8 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "3 GB",
+        "camera": "8 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 13,
@@ -210,16 +186,14 @@
       "price": 59.99,
       "description": "Electric indoor grill for quick meals.",
       "imgUrl": "/images/013.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "6 GB",
-          "camera": "64 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "6 GB",
+        "camera": "64 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 14,
@@ -227,16 +201,14 @@
       "price": 149.99,
       "description": "Lightweight leaf blower for maintaining outdoor spaces.",
       "imgUrl": "/images/014.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "8 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "8 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 15,
@@ -244,16 +216,14 @@
       "price": 7.49,
       "description": "Tofu stir-fried with fresh vegetables in teriyaki sauce.",
       "imgUrl": "/images/015.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "4 GB",
-          "camera": "24 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "4 GB",
+        "camera": "24 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 16,
@@ -261,16 +231,14 @@
       "price": 6.99,
       "description": "A mix of fresh vegetables with a savory stir-fry sauce, ready to cook.",
       "imgUrl": "/images/016.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "6 GB",
-          "camera": "8 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "6 GB",
+        "camera": "8 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 17,
@@ -278,16 +246,14 @@
       "price": 34.99,
       "description": "Rechargeable lantern with multiple brightness settings for outdoors.",
       "imgUrl": "/images/001.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "3 GB",
-          "camera": "8 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "3 GB",
+        "camera": "8 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 18,
@@ -295,16 +261,14 @@
       "price": 3.99,
       "description": "A ready-to-eat soup with coconut milk, spices, and vegetables.",
       "imgUrl": "/images/002.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "3 GB",
-          "camera": "8 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "3 GB",
+        "camera": "8 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 19,
@@ -312,16 +276,14 @@
       "price": 99.99,
       "description": "Compact wireless printer for home use.",
       "imgUrl": "/images/003.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "8 GB",
-          "camera": "16 MP",
-          "storage": "64 GB",
-          "dual_sim": "false",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "8 GB",
+        "camera": "16 MP",
+        "storage": "64 GB",
+        "dual_sim": "false",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 20,
@@ -329,16 +291,14 @@
       "price": 4.99,
       "description": "Natural honey sourced from wildflowers.",
       "imgUrl": "/images/004.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "8 GB",
-          "camera": "32 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "8 GB",
+        "camera": "32 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 21,
@@ -346,16 +306,14 @@
       "price": 39.99,
       "description": "Eco-friendly yoga mat made from sustainable materials.",
       "imgUrl": "/images/005.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "6 GB",
-          "camera": "32 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "6 GB",
+        "camera": "32 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 22,
@@ -363,16 +321,14 @@
       "price": 35.99,
       "description": "Classic A-line skirt that flatters every figure, perfect for work or play.",
       "imgUrl": "/images/006.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "5 GB",
-          "camera": "64 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "5 GB",
+        "camera": "64 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 23,
@@ -380,16 +336,14 @@
       "price": 24.99,
       "description": "Relieve muscle tension and soreness with this foam roller.",
       "imgUrl": "/images/007.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "5 GB",
-          "camera": "8 MP",
-          "storage": "256 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "5 GB",
+        "camera": "8 MP",
+        "storage": "256 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 24,
@@ -397,16 +351,14 @@
       "price": 24.99,
       "description": "Non-stick and reusable mats for easy baking.",
       "imgUrl": "/images/008.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "5 GB",
-          "camera": "32 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "5 GB",
+        "camera": "32 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 25,
@@ -414,16 +366,14 @@
       "price": 22,
       "description": "Eco-friendly bamboo cutting board for food prep.",
       "imgUrl": "/images/009.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "4 GB",
-          "camera": "64 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "4 GB",
+        "camera": "64 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 26,
@@ -431,16 +381,14 @@
       "price": 19.99,
       "description": "Self-cleaning grooming brush for cats and dogs.",
       "imgUrl": "/images/010.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "6 GB",
-          "camera": "64 MP",
-          "storage": "128 GB",
-          "dual_sim": "true",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "6 GB",
+        "camera": "64 MP",
+        "storage": "128 GB",
+        "dual_sim": "true",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 27,
@@ -448,16 +396,14 @@
       "price": 3.49,
       "description": "Savory sauce for vegetable and meat stir-fries.",
       "imgUrl": "/images/011.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "3 GB",
-          "camera": "32 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "3 GB",
+        "camera": "32 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 28,
@@ -465,16 +411,14 @@
       "price": 29.99,
       "description": "Soft flannel shirt with a timeless plaid pattern, perfect for layering.",
       "imgUrl": "/images/012.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "5 GB",
-          "camera": "16 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "5 GB",
+        "camera": "16 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 29,
@@ -482,16 +426,14 @@
       "price": 29.99,
       "description": "Compact yoga mat that folds for easy storage and transport.",
       "imgUrl": "/images/013.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "32 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "32 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 30,
@@ -499,16 +441,14 @@
       "price": 99.99,
       "description": "Durable high-top leather boots for the stylish adventurer.",
       "imgUrl": "/images/014.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "3 GB",
-          "camera": "32 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "3 GB",
+        "camera": "32 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 31,
@@ -516,16 +456,14 @@
       "price": 3.99,
       "description": "No-bake energy balls made with oats, chocolate chips, and honey.",
       "imgUrl": "/images/015.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "64 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "64 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 32,
@@ -533,16 +471,14 @@
       "price": 39.99,
       "description": "Convenient feeder that adjusts to your pet's height.",
       "imgUrl": "/images/016.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "4 GB",
-          "camera": "32 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "4 GB",
+        "camera": "32 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 33,
@@ -550,16 +486,14 @@
       "price": 2.99,
       "description": "Crunchy croutons with a blend of herbs for salads.",
       "imgUrl": "/images/001.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "8 GB",
-          "camera": "64 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "8 GB",
+        "camera": "64 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 34,
@@ -567,16 +501,14 @@
       "price": 2.99,
       "description": "A spice blend for making flavorful chili con carne.",
       "imgUrl": "/images/002.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "5 GB",
-          "camera": "8 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "5 GB",
+        "camera": "8 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 35,
@@ -584,16 +516,14 @@
       "price": 3.99,
       "description": "Crispy and crunchy snack made from assorted vegetables.",
       "imgUrl": "/images/003.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "4 GB",
-          "camera": "64 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "4 GB",
+        "camera": "64 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 36,
@@ -601,16 +531,14 @@
       "price": 3.49,
       "description": "Oats and honey bars with a chewy texture and nutty flavor.",
       "imgUrl": "/images/004.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "6 GB",
-          "camera": "24 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "6 GB",
+        "camera": "24 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 37,
@@ -618,16 +546,14 @@
       "price": 6.49,
       "description": "Traditional basil pesto made with extra virgin olive oil.",
       "imgUrl": "/images/005.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "8 GB",
-          "camera": "32 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "8 GB",
+        "camera": "32 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 38,
@@ -635,16 +561,14 @@
       "price": 2.99,
       "description": "Soft and fresh sliced bread, perfect for sandwiches.",
       "imgUrl": "/images/006.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "8 GB",
-          "camera": "8 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "8 GB",
+        "camera": "8 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 39,
@@ -652,16 +576,14 @@
       "price": 1.99,
       "description": "Pitted black olives, perfect for salads and pizzas.",
       "imgUrl": "/images/007.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "5 GB",
-          "camera": "32 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "5 GB",
+        "camera": "32 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 40,
@@ -669,16 +591,14 @@
       "price": 29.99,
       "description": "Soft flannel shirt with a timeless plaid pattern, perfect for layering.",
       "imgUrl": "/images/008.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "8 GB",
-          "camera": "64 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "8 GB",
+        "camera": "64 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 41,
@@ -686,16 +606,14 @@
       "price": 5.99,
       "description": "Tender beef chunks for slow-cooked stews.",
       "imgUrl": "/images/009.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "6 GB",
-          "camera": "32 MP",
-          "storage": "64 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "6 GB",
+        "camera": "32 MP",
+        "storage": "64 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 42,
@@ -703,16 +621,14 @@
       "price": 149.99,
       "description": "Stylish bar stools with adjustable height and swivel features.",
       "imgUrl": "/images/010.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "3 GB",
-          "camera": "8 MP",
-          "storage": "256 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "3 GB",
+        "camera": "8 MP",
+        "storage": "256 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 43,
@@ -720,16 +636,14 @@
       "price": 29.99,
       "description": "Organizational cubes for easy packing and travel.",
       "imgUrl": "/images/011.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "3 GB",
-          "camera": "16 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "3 GB",
+        "camera": "16 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 44,
@@ -737,16 +651,14 @@
       "price": 99.99,
       "description": "Multifunctional smartwatch for fitness tracking.",
       "imgUrl": "/images/012.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "4 GB",
-          "camera": "16 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "4 GB",
+        "camera": "16 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 45,
@@ -754,16 +666,14 @@
       "price": 5.49,
       "description": "Spicy and smoky sausage great for grilling.",
       "imgUrl": "/images/013.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "6 GB",
-          "camera": "32 MP",
-          "storage": "128 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "6 GB",
+        "camera": "32 MP",
+        "storage": "128 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 46,
@@ -771,16 +681,14 @@
       "price": 1.49,
       "description": "Refreshing sparkling water with cucumber and lime flavor.",
       "imgUrl": "/images/014.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "3 GB",
-          "camera": "64 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "3 GB",
+        "camera": "64 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 47,
@@ -788,16 +696,14 @@
       "price": 19.99,
       "description": "Sleek and protective sleeve for laptops and tablets.",
       "imgUrl": "/images/015.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "8 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "8 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 48,
@@ -805,16 +711,14 @@
       "price": 8.49,
       "description": "Fresh walnut halves for baking or snacking.",
       "imgUrl": "/images/016.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "4 GB",
-          "camera": "24 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "4 GB",
+        "camera": "24 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 49,
@@ -822,16 +726,14 @@
       "price": 29.99,
       "description": "Personalized wooden puzzles for children that encourage learning.",
       "imgUrl": "/images/001.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "6 GB",
-          "camera": "32 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "6 GB",
+        "camera": "32 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 50,
@@ -839,16 +741,14 @@
       "price": 3.99,
       "description": "Tangy vinaigrette with orange and ginger flavors.",
       "imgUrl": "/images/002.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "8 GB",
-          "camera": "24 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "8 GB",
+        "camera": "24 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 51,
@@ -856,16 +756,14 @@
       "price": 34.99,
       "description": "Plant-based protein powder for post-workout recovery.",
       "imgUrl": "/images/003.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "3 GB",
-          "camera": "8 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "3 GB",
+        "camera": "8 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 52,
@@ -873,16 +771,14 @@
       "price": 3.99,
       "description": "Gluten-free pasta made from red lentils, packed with protein.",
       "imgUrl": "/images/004.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "4 GB",
-          "camera": "24 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "4 GB",
+        "camera": "24 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 53,
@@ -890,16 +786,14 @@
       "price": 2.99,
       "description": "Hearty minestrone soup loaded with vegetables and pasta.",
       "imgUrl": "/images/005.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "4 GB",
-          "camera": "16 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "4 GB",
+        "camera": "16 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 54,
@@ -907,16 +801,14 @@
       "price": 89,
       "description": "Instant pressure cooker with multiple cooking settings.",
       "imgUrl": "/images/006.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "3 GB",
-          "camera": "64 MP",
-          "storage": "64 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "3 GB",
+        "camera": "64 MP",
+        "storage": "64 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 55,
@@ -924,16 +816,14 @@
       "price": 19.99,
       "description": "Fun and educational puzzle set for kids.",
       "imgUrl": "/images/007.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "4 GB",
-          "camera": "24 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "4 GB",
+        "camera": "24 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 56,
@@ -941,16 +831,14 @@
       "price": 5.99,
       "description": "A hearty vegetable curry for a quick and satisfying meal.",
       "imgUrl": "/images/008.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "6 GB",
-          "camera": "8 MP",
-          "storage": "128 GB",
-          "dual_sim": "true",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "6 GB",
+        "camera": "8 MP",
+        "storage": "128 GB",
+        "dual_sim": "true",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 57,
@@ -958,16 +846,14 @@
       "price": 4.29,
       "description": "Chickpeas mixed with fresh vegetables and herbs, a nutritious snack or salad.",
       "imgUrl": "/images/009.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "3 GB",
-          "camera": "64 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "3 GB",
+        "camera": "64 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 58,
@@ -975,16 +861,14 @@
       "price": 7.99,
       "description": "Coffee blend infused with pumpkin spice, perfect for fall.",
       "imgUrl": "/images/010.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "6 GB",
-          "camera": "16 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "6 GB",
+        "camera": "16 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 59,
@@ -992,16 +876,14 @@
       "price": 2.49,
       "description": "Rich coconut milk for curries and desserts.",
       "imgUrl": "/images/011.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "3 GB",
-          "camera": "16 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "3 GB",
+        "camera": "16 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 60,
@@ -1009,16 +891,14 @@
       "price": 49.99,
       "description": "Water bottle with built-in UV-C light for self-cleaning.",
       "imgUrl": "/images/012.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "3 GB",
-          "camera": "64 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "3 GB",
+        "camera": "64 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 61,
@@ -1026,16 +906,14 @@
       "price": 2.99,
       "description": "Soft pita bread, perfect for sandwiches or dips.",
       "imgUrl": "/images/013.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "5 GB",
-          "camera": "8 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "5 GB",
+        "camera": "8 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 62,
@@ -1043,16 +921,14 @@
       "price": 2.29,
       "description": "Authentic Italian pasta, perfect for a classic meal.",
       "imgUrl": "/images/014.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "4 GB",
-          "camera": "16 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "4 GB",
+        "camera": "16 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 63,
@@ -1060,16 +936,14 @@
       "price": 2.99,
       "description": "Popcorn tossed with sweet or savory flavors for a tasty snack.",
       "imgUrl": "/images/015.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "5 GB",
-          "camera": "16 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "5 GB",
+        "camera": "16 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 64,
@@ -1077,16 +951,14 @@
       "price": 4.99,
       "description": "Gluten-free pasta made from lentils, high in protein.",
       "imgUrl": "/images/016.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "8 GB",
-          "camera": "8 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "8 GB",
+        "camera": "8 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 65,
@@ -1094,16 +966,14 @@
       "price": 6.99,
       "description": "Unsweetened frozen acai purée for smoothies and bowls.",
       "imgUrl": "/images/001.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "3 GB",
-          "camera": "16 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "3 GB",
+        "camera": "16 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 66,
@@ -1111,16 +981,14 @@
       "price": 59.99,
       "description": "A fitted ribbed knit dress that hugs your curves perfectly.",
       "imgUrl": "/images/002.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "5 GB",
-          "camera": "8 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "5 GB",
+        "camera": "8 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 67,
@@ -1128,16 +996,14 @@
       "price": 2.49,
       "description": "A creamy blend of avocados and lime juice, great for spreads or dips.",
       "imgUrl": "/images/003.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "4 GB",
-          "camera": "24 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "4 GB",
+        "camera": "24 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 68,
@@ -1145,16 +1011,14 @@
       "price": 19.99,
       "description": "Organize your board games with this storage bin.",
       "imgUrl": "/images/004.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "6 GB",
-          "camera": "16 MP",
-          "storage": "256 GB",
-          "dual_sim": "false",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "6 GB",
+        "camera": "16 MP",
+        "storage": "256 GB",
+        "dual_sim": "false",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 69,
@@ -1162,16 +1026,14 @@
       "price": 89.99,
       "description": "Indoor Wi-Fi camera for home security.",
       "imgUrl": "/images/005.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "8 GB",
-          "camera": "64 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "8 GB",
+        "camera": "64 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 70,
@@ -1179,16 +1041,14 @@
       "price": 24.99,
       "description": "Double-walled mug to keep your drink hot for longer.",
       "imgUrl": "/images/006.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "8 MP",
-          "storage": "512 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "8 MP",
+        "storage": "512 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 71,
@@ -1196,16 +1056,14 @@
       "price": 18.99,
       "description": "Space-saving crates for easy organization at home or while traveling.",
       "imgUrl": "/images/007.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "5 GB",
-          "camera": "64 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "5 GB",
+        "camera": "64 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 72,
@@ -1213,16 +1071,14 @@
       "price": 12.99,
       "description": "Effective laundry detergent for a deep clean.",
       "imgUrl": "/images/008.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "5 GB",
-          "camera": "24 MP",
-          "storage": "64 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "5 GB",
+        "camera": "24 MP",
+        "storage": "64 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 73,
@@ -1230,16 +1086,14 @@
       "price": 22.99,
       "description": "Handmade eco-friendly bowls made from real coconuts.",
       "imgUrl": "/images/009.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "4 GB",
-          "camera": "16 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "4 GB",
+        "camera": "16 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 74,
@@ -1247,16 +1101,14 @@
       "price": 34.99,
       "description": "Everything you need for maintaining a healthy beard.",
       "imgUrl": "/images/010.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "3 GB",
-          "camera": "24 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "3 GB",
+        "camera": "24 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 75,
@@ -1264,16 +1116,14 @@
       "price": 2.49,
       "description": "Flavorful sauce perfect for stir-frying vegetables and tofu.",
       "imgUrl": "/images/011.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "3 GB",
-          "camera": "32 MP",
-          "storage": "256 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "3 GB",
+        "camera": "32 MP",
+        "storage": "256 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 76,
@@ -1281,16 +1131,14 @@
       "price": 59.99,
       "description": "Wheeled cooler for transporting drinks and snacks.",
       "imgUrl": "/images/012.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "8 GB",
-          "camera": "32 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "8 GB",
+        "camera": "32 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 77,
@@ -1298,16 +1146,14 @@
       "price": 4.49,
       "description": "Crunchy granola with chocolate and hazelnuts for breakfast.",
       "imgUrl": "/images/013.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "6 GB",
-          "camera": "24 MP",
-          "storage": "128 GB",
-          "dual_sim": "true",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "6 GB",
+        "camera": "24 MP",
+        "storage": "128 GB",
+        "dual_sim": "true",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 78,
@@ -1315,16 +1161,14 @@
       "price": 11.99,
       "description": "Natural elderberry syrup to boost immunity.",
       "imgUrl": "/images/014.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "5 GB",
-          "camera": "8 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "5 GB",
+        "camera": "8 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 79,
@@ -1332,16 +1176,14 @@
       "price": 49.99,
       "description": "Portable car vacuum cleaner with strong suction.",
       "imgUrl": "/images/015.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "3 GB",
-          "camera": "24 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "3 GB",
+        "camera": "24 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 80,
@@ -1349,16 +1191,14 @@
       "price": 79.99,
       "description": "Water-resistant activity tracker and smartwatch features.",
       "imgUrl": "/images/016.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "32 MP",
-          "storage": "32 GB",
-          "dual_sim": "true",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "32 MP",
+        "storage": "32 GB",
+        "dual_sim": "true",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 81,
@@ -1366,16 +1206,14 @@
       "price": 34.99,
       "description": "Rechargeable LED lantern ideal for camping and outdoor activities.",
       "imgUrl": "/images/001.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "5 GB",
-          "camera": "24 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "5 GB",
+        "camera": "24 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 82,
@@ -1383,16 +1221,14 @@
       "price": 5.99,
       "description": "A nutritious quinoa salad with veggies and dressing, ready-to-eat.",
       "imgUrl": "/images/002.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "4 GB",
-          "camera": "16 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "4 GB",
+        "camera": "16 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 83,
@@ -1400,16 +1236,14 @@
       "price": 3.59,
       "description": "A spicy glaze made with sriracha and honey, perfect for meats.",
       "imgUrl": "/images/003.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "5 GB",
-          "camera": "64 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "5 GB",
+        "camera": "64 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 84,
@@ -1417,16 +1251,14 @@
       "price": 5.99,
       "description": "Fruits dipped in rich chocolate, perfect for desserts.",
       "imgUrl": "/images/004.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "5 GB",
-          "camera": "32 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "5 GB",
+        "camera": "32 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 85,
@@ -1434,16 +1266,14 @@
       "price": 29.99,
       "description": "Portable ring light that enhances your photos with perfect lighting.",
       "imgUrl": "/images/005.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "8 GB",
-          "camera": "32 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "8 GB",
+        "camera": "32 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 86,
@@ -1451,16 +1281,14 @@
       "price": 1.99,
       "description": "Creamy Greek yogurt packed with protein and probiotics.",
       "imgUrl": "/images/006.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "5 GB",
-          "camera": "24 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "5 GB",
+        "camera": "24 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 87,
@@ -1468,16 +1296,14 @@
       "price": 2.49,
       "description": "Instant oatmeal flavored with cranberries and orange zest for breakfast.",
       "imgUrl": "/images/007.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "3 GB",
-          "camera": "8 MP",
-          "storage": "256 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "3 GB",
+        "camera": "8 MP",
+        "storage": "256 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 88,
@@ -1485,16 +1311,14 @@
       "price": 3.79,
       "description": "Creamy and smooth peanut butter, perfect for sandwiches.",
       "imgUrl": "/images/008.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "8 GB",
-          "camera": "8 MP",
-          "storage": "512 GB",
-          "dual_sim": "false",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "8 GB",
+        "camera": "8 MP",
+        "storage": "512 GB",
+        "dual_sim": "false",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 89,
@@ -1502,16 +1326,14 @@
       "price": 24.99,
       "description": "Connect your phone to the car's audio system via Bluetooth.",
       "imgUrl": "/images/009.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "6 GB",
-          "camera": "24 MP",
-          "storage": "128 GB",
-          "dual_sim": "true",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "6 GB",
+        "camera": "24 MP",
+        "storage": "128 GB",
+        "dual_sim": "true",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 90,
@@ -1519,16 +1341,14 @@
       "price": 8.99,
       "description": "Pizza topped with barbecue chicken, cheese, and red onions.",
       "imgUrl": "/images/010.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "8 GB",
-          "camera": "8 MP",
-          "storage": "64 GB",
-          "dual_sim": "true",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "8 GB",
+        "camera": "8 MP",
+        "storage": "64 GB",
+        "dual_sim": "true",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 91,
@@ -1536,16 +1356,14 @@
       "price": 99.99,
       "description": "Compact and portable projector for watching videos anywhere.",
       "imgUrl": "/images/011.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "6 GB",
-          "camera": "64 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Google Tensor G2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "6 GB",
+        "camera": "64 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Google Tensor G2"
+      }
     },
     {
       "id": 92,
@@ -1553,16 +1371,14 @@
       "price": 29.99,
       "description": "Set of resistance bands for home workouts.",
       "imgUrl": "/images/012.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "3 GB",
-          "camera": "8 MP",
-          "storage": "256 GB",
-          "dual_sim": "false",
-          "processor": "Apple A15 Bionic"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "3 GB",
+        "camera": "8 MP",
+        "storage": "256 GB",
+        "dual_sim": "false",
+        "processor": "Apple A15 Bionic"
+      }
     },
     {
       "id": 93,
@@ -1570,16 +1386,14 @@
       "price": 2.49,
       "description": "Juicy peach slices in syrup, perfect for desserts.",
       "imgUrl": "/images/013.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "8 GB",
-          "camera": "16 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Exynos 2200"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "8 GB",
+        "camera": "16 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Exynos 2200"
+      }
     },
     {
       "id": 94,
@@ -1587,16 +1401,14 @@
       "price": 29.99,
       "description": "Non-stick utensils for safe and easy cooking.",
       "imgUrl": "/images/014.jpg",
-      "key_features": [
-        {
-          "screen_size": "5.5 inches",
-          "RAM": "3 GB",
-          "camera": "24 MP",
-          "storage": "128 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5.5 inches",
+        "ram": "3 GB",
+        "camera": "24 MP",
+        "storage": "128 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 95,
@@ -1604,16 +1416,14 @@
       "price": 3.79,
       "description": "Crunchy granola with raisins and cinnamon for a delightful breakfast.",
       "imgUrl": "/images/015.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "4 GB",
-          "camera": "16 MP",
-          "storage": "64 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "4 GB",
+        "camera": "16 MP",
+        "storage": "64 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 96,
@@ -1621,16 +1431,14 @@
       "price": 19.99,
       "description": "Set of roller bottles for blending and applying essential oils.",
       "imgUrl": "/images/016.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "5 GB",
-          "camera": "64 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "Qualcomm Snapdragon 8 Gen 2"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "5 GB",
+        "camera": "64 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "Qualcomm Snapdragon 8 Gen 2"
+      }
     },
     {
       "id": 97,
@@ -1638,16 +1446,14 @@
       "price": 3.49,
       "description": "Savory teriyaki sauce for stir-frying veggies or meats.",
       "imgUrl": "/images/001.jpg",
-      "key_features": [
-        {
-          "screen_size": "6 inches",
-          "RAM": "3 GB",
-          "camera": "16 MP",
-          "storage": "128 GB",
-          "dual_sim": "true",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6 inches",
+        "ram": "3 GB",
+        "camera": "16 MP",
+        "storage": "128 GB",
+        "dual_sim": "true",
+        "processor": "Kirin 9000"
+      }
     },
     {
       "id": 98,
@@ -1655,16 +1461,14 @@
       "price": 4.49,
       "description": "A tangy marinade for meats and veggies, packed with garlic flavor.",
       "imgUrl": "/images/002.jpg",
-      "key_features": [
-        {
-          "screen_size": "5 inches",
-          "RAM": "5 GB",
-          "camera": "8 MP",
-          "storage": "256 GB",
-          "dual_sim": "false",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "5 inches",
+        "ram": "5 GB",
+        "camera": "8 MP",
+        "storage": "256 GB",
+        "dual_sim": "false",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 99,
@@ -1672,16 +1476,14 @@
       "price": 19.99,
       "description": "USB hub for expanding ports on computers and laptops.",
       "imgUrl": "/images/003.jpg",
-      "key_features": [
-        {
-          "screen_size": "7 inches",
-          "RAM": "4 GB",
-          "camera": "8 MP",
-          "storage": "256 GB",
-          "dual_sim": "true",
-          "processor": "MediaTek Dimensity 920"
-        }
-      ]
+      "key_features": {
+        "screen_size": "7 inches",
+        "ram": "4 GB",
+        "camera": "8 MP",
+        "storage": "256 GB",
+        "dual_sim": "true",
+        "processor": "MediaTek Dimensity 920"
+      }
     },
     {
       "id": 100,
@@ -1689,16 +1491,14 @@
       "price": 8.49,
       "description": "Fresh walnut halves for baking or snacking.",
       "imgUrl": "/images/004.jpg",
-      "key_features": [
-        {
-          "screen_size": "6.5 inches",
-          "RAM": "6 GB",
-          "camera": "8 MP",
-          "storage": "32 GB",
-          "dual_sim": "false",
-          "processor": "Kirin 9000"
-        }
-      ]
+      "key_features": {
+        "screen_size": "6.5 inches",
+        "ram": "6 GB",
+        "camera": "8 MP",
+        "storage": "32 GB",
+        "dual_sim": "false",
+        "processor": "Kirin 9000"
+      }
     }
   ]
 }
