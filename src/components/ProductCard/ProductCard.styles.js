@@ -56,3 +56,19 @@ export const StyledImageWrapper = styled.div`
   align-items: center;
   justify-content: center;
 `;
+
+export const TooltipWrapper = styled.div`
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+`;
+
+export const TooltipIcon = styled.img`
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+`;
