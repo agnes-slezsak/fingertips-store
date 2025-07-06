@@ -28,6 +28,7 @@ export const CART_TITLE = (count) =>
 export const TABLE_HEADERS = ["Items", "Units", "Price"];
 export const TOTAL_ORDER_VALUE = "Total Order Value";
 export const EMPTY_CART_MESSAGE = "Your cart is empty!";
+export const REMOVE_ITEM_TITLE = "Remove from cart";
 export const CART_BUTTON_CHECKOUT = "Checkout";
 export const CHECKOUT_EMPTY_CART_MESSAGE =
   "Thank you for your purchase! Your cart is now empty.";

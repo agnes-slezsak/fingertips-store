@@ -51,26 +51,74 @@ export const CartTable = styled.table`
   }
 
   th {
-    text-align: left;
+    text-align: center;
     color: ${({ theme }) => theme.colors.darkGrey};
     font-size: 0.9em;
     padding: 8px 0;
   }
+
+  th:last-child {
+    width: 32px;
+  }
+
   tbody {
-    border-bottom: 1px solid ${({ theme }) => theme.colors.lightGrey};
+    display: block;
+    max-height: 40vh;
+    overflow-y: auto;
   }
-  tbody tr:last-child {
-    height: 60px;
-    border-top: 2px solid ${({ theme }) => theme.colors.lightGrey};
+
+  tbody::-webkit-scrollbar {
+    width: 8px;
   }
+
+  tbody::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.colors.lightGrey};
+    border-radius: 4px;
+  }
+
+  tbody::-webkit-scrollbar-track {
+    background-color: ${({ theme }) => theme.colors.background};
+  }
+
   td {
     color: ${({ theme }) => theme.colors.darkGrey};
     font-size: 0.9em;
     padding: 8px 0;
+    text-align: center;
+  }
+
+  td:first-child,
+  th:first-child {
+    text-align: left;
+  }
+
+  td:last-child {
+    width: 32px;
+    color: ${({ theme }) => theme.colors.accentRed};
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  thead,
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
   }
 `;
 
-export const TotalOrderValue = styled.td`
+export const TotalOrderContainer = styled.div`
+  width: 100%;
+  margin-top: 8px;
+  padding: 16px 0;
+  border-top: 2px solid ${({ theme }) => theme.colors.lightGrey};
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: ${({ theme }) => theme.colors.darkGrey};
+`;
+
+export const TotalOrderValue = styled.span`
   font-weight: bold;
   color: ${({ theme }) => theme.colors.darkGrey};
 `;

@@ -32,6 +32,12 @@ export const CartTable = styled.table`
     background-color: ${({ theme }) => theme.colors.backgroundLight};
     font-weight: bold;
   }
+  td:last-child {
+    width: 32px;
+    color: ${({ theme }) => theme.colors.accentRed};
+    font-weight: bold;
+    cursor: pointer;
+  }
 `;
 
 export const TotalOrderValueCell = styled.td`

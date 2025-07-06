@@ -16,6 +16,7 @@ import {
   CART_TITLE,
   CHECKOUT_EMPTY_CART_MESSAGE,
   CHECKOUT_PAYMENT_BUTTON_TEXT,
+  REMOVE_ITEM_TITLE,
   ROUTES,
   TABLE_HEADERS,
   TOTAL_ORDER_VALUE,
@@ -23,7 +24,7 @@ import {
 import { formatPrice } from "../../utils/formatPrice";
 
 const CheckoutPage = () => {
-  const { cartItems, clearCart } = useStore();
+  const { cartItems, clearCart, removeItemFromCart } = useStore();
   const navigate = useNavigate();
   const totalOrderValue = cartItems.reduce(
     (acc, item) => acc + item.price * item.units,
@@ -55,6 +56,7 @@ const CheckoutPage = () => {
             {TABLE_HEADERS.map((header) => (
               <th key={header}>{header}</th>
             ))}
+            <th />
           </tr>
         </thead>
         <tbody>
@@ -63,6 +65,12 @@ const CheckoutPage = () => {
               <td>{item.name}</td>
               <td>{item.units}</td>
               <td>{formatPrice(item.price)}</td>
+              <td
+                title={REMOVE_ITEM_TITLE}
+                onClick={() => removeItemFromCart(item.id)}
+              >
+                x
+              </td>
             </tr>
           ))}
           <tr>
@@ -72,6 +80,7 @@ const CheckoutPage = () => {
             <TotalOrderValueCell>
               {formatPrice(totalOrderValue)}
             </TotalOrderValueCell>
+            <td />
           </tr>
         </tbody>
       </CartTable>
