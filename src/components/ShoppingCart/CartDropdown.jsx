@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 import {
   DropdownContainer,
@@ -7,8 +8,6 @@ import {
   DropdownTitle,
   CartTable,
   CheckoutButtonContainer,
-  TableHeader,
-  TableData,
   TotalOrderValue,
   EmptyMessage,
 } from "./ShoppingCart.styles";
@@ -27,6 +26,7 @@ const CART_BUTTON_CHECKOUT = "Checkout";
 const CartDropdown = () => {
   const { cartItems, isCartOpen, setIsCartOpen } = useStore();
   const dropdownRef = useRef(null);
+  const navigate = useNavigate();
 
   useClickOutside(
     dropdownRef,
@@ -43,7 +43,7 @@ const CartDropdown = () => {
 
   const handleCheckout = () => {
     setIsCartOpen(false);
-    alert("Proceeding to checkout...");
+    navigate("/checkout");
   };
 
   return (
@@ -57,16 +57,16 @@ const CartDropdown = () => {
               <thead>
                 <tr>
                   {TABLE_HEADERS.map((header) => (
-                    <TableHeader key={header}>{header}</TableHeader>
+                    <th key={header}>{header}</th>
                   ))}
                 </tr>
               </thead>
               <tbody>
                 {cartItems.map((item) => (
                   <tr key={item.id}>
-                    <TableData>{item.name}</TableData>
-                    <TableData>{item.units}</TableData>
-                    <TableData>{formatPrice(item.price)}</TableData>
+                    <td>{item.name}</td>
+                    <td>{item.units}</td>
+                    <td>{formatPrice(item.price)}</td>
                   </tr>
                 ))}
                 <tr>

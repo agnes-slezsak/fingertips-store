@@ -49,6 +49,13 @@ export const CartTable = styled.table`
   thead {
     border-top: 1px solid ${({ theme }) => theme.colors.lightGrey};
   }
+
+  th {
+    text-align: left;
+    color: ${({ theme }) => theme.colors.darkGrey};
+    font-size: 0.9em;
+    padding: 8px 0;
+  }
   tbody {
     border-bottom: 1px solid ${({ theme }) => theme.colors.lightGrey};
   }
@@ -56,19 +63,11 @@ export const CartTable = styled.table`
     height: 60px;
     border-top: 2px solid ${({ theme }) => theme.colors.lightGrey};
   }
-`;
-
-export const TableHeader = styled.th`
-  text-align: left;
-  color: ${({ theme }) => theme.colors.darkGrey};
-  font-size: 0.9em;
-  padding: 8px 0;
-`;
-
-export const TableData = styled.td`
-  color: ${({ theme }) => theme.colors.darkGrey};
-  font-size: 0.9em;
-  padding: 8px 0;
+  td {
+    color: ${({ theme }) => theme.colors.darkGrey};
+    font-size: 0.9em;
+    padding: 8px 0;
+  }
 `;
 
 export const TotalOrderValue = styled.td`

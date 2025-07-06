@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import CardDetails from "./CardDetails";
 import CardImage from "./CardImage";
 import {
@@ -16,14 +18,19 @@ import TooltipModal from "../TooltipModal/TooltipModal";
 const ProductCard = ({ product }) => {
   const { ref, position, isVisible, showTooltip, hideTooltip } = useTooltip();
   const { addItemToCart } = useStore();
+  const navigate = useNavigate();
 
   const handleAddToCart = (e) => {
     e.stopPropagation();
     addItemToCart(product);
   };
 
+  const handleCardClick = () => {
+    navigate(`/product/${product.id}`);
+  };
+
   return (
-    <StyledProductCard>
+    <StyledProductCard onClick={handleCardClick}>
       <TooltipWrapper
         ref={ref}
         onMouseEnter={showTooltip}
