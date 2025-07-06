@@ -5,7 +5,7 @@ Fingertips Store is a demo e-commerce web app built with React and Vite.
 ## Features
 
 - ⚡️ Fast development with Vite and React
-- 🎨 Custom theme using CSS variables and styled-components
+- 🎨 Custom theme using styled-components
 - 🧹 Linting with ESLint and recommended React rules
 
 ## Getting Started
@@ -14,11 +14,16 @@ Fingertips Store is a demo e-commerce web app built with React and Vite.
    ```sh
    npm install
    ```
-2. Start the development server:
+2. Start the mock API server (JSON Server):
+   ```sh
+   npm run start:server
+   ```
+   This will run JSON Server at [http://localhost:3001](http://localhost:3001).
+3. In a separate terminal, start the development server:
    ```sh
    npm run dev
    ```
-3. Open [http://localhost:5173](http://localhost:5173) in your browser.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Linting
 
