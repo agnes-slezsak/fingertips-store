@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { FOOTER_TEXT } from "../../utils/consts";
+
 const StyledFooter = styled.footer`
   width: 100vw;
   padding: 16px 0;
@@ -9,7 +11,7 @@ const StyledFooter = styled.footer`
   font-size: 0.95rem;
   margin-top: auto;
 `;
-const FOOTER_TEXT = `© ${new Date().getFullYear()} All rights reserved | Agnes Slezsak`;
+
 const Footer = () => <StyledFooter>{FOOTER_TEXT}</StyledFooter>;
 
 export default Footer;

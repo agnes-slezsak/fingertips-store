@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
+import ProductCard from "../../components/ProductCard/ProductCard";
 import { useStore } from "../../store/store";
-import ProductCard from "../ProductCard/ProductCard";
 
 const StyledProductList = styled.div`
   display: grid;
@@ -10,7 +10,7 @@ const StyledProductList = styled.div`
   padding: 1em;
 `;
 
-const ProductList = ({ isLoading }) => {
+const ProductListingPage = ({ isLoading }) => {
   const { productItems = [] } = useStore();
 
   if (isLoading) {
@@ -26,4 +26,4 @@ const ProductList = ({ isLoading }) => {
   );
 };
 
-export default ProductList;
+export default ProductListingPage;

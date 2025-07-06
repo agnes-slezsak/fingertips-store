@@ -12,6 +12,11 @@ import HoverIcon from "../../assets/tooltip-hover.svg";
 import StaticIcon from "../../assets/tooltip-static.svg";
 import { useTooltip } from "../../hooks/useTooltip";
 import { useStore } from "../../store/store";
+import {
+  ADD_TO_CART_LABEL,
+  ROUTES,
+  TOOLTIP_ICON_ALT,
+} from "../../utils/consts";
 import Button from "../Button/Button";
 import TooltipModal from "../TooltipModal/TooltipModal";
 
@@ -26,7 +31,7 @@ const ProductCard = ({ product }) => {
   };
 
   const handleCardClick = () => {
-    navigate(`/product/${product.id}`);
+    navigate(ROUTES.PRODUCT_DETAILS.replace(":id", product.id));
   };
 
   return (
@@ -38,7 +43,7 @@ const ProductCard = ({ product }) => {
       >
         <TooltipIcon
           src={isVisible ? HoverIcon : StaticIcon}
-          alt="Tooltip Icon"
+          alt={TOOLTIP_ICON_ALT}
         />
         {isVisible && (
           <TooltipModal product={product} modalPosition={position} />
@@ -47,7 +52,7 @@ const ProductCard = ({ product }) => {
       <CardImage src={product.imgUrl} alt={product.name} />
       <CardDetails name={product.name} price={product.price} />
       <StyledButtonWrapper data-ignore-outside-click>
-        <Button label="Add to Cart" onClick={handleAddToCart} />
+        <Button label={ADD_TO_CART_LABEL} onClick={handleAddToCart} />
       </StyledButtonWrapper>
     </StyledProductCard>
   );

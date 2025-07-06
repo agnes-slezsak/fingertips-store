@@ -14,7 +14,6 @@ export const CheckoutHeader = styled.h1`
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 16px;
-  color: #333;
 `;
 
 export const CartTable = styled.table`
@@ -24,19 +23,19 @@ export const CartTable = styled.table`
 
   th,
   td {
-    border: 1px solid #ddd;
+    border: 1px solid ${({ theme }) => theme.colors.lightGrey};
     text-align: left;
     padding: 8px;
   }
 
   th {
-    background-color: #f4f4f4;
+    background-color: ${({ theme }) => theme.colors.backgroundLight};
     font-weight: bold;
   }
+`;
 
-  td {
-    font-size: 1rem;
-  }
+export const TotalOrderValueCell = styled.td`
+  font-weight: bold;
 `;
 
 export const CheckoutActions = styled.div`
@@ -50,7 +49,6 @@ export const CheckoutActions = styled.div`
 export const EmptyMessage = styled.div`
   font-size: 1.2rem;
   text-align: center;
-  color: #999;
   margin-top: 50px;
 `;
 

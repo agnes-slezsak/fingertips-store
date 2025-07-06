@@ -1,7 +1,6 @@
 import { StyledHeader, Title, CartContainer } from "./Header.styles";
 import ShoppingCartButton from "../../components/ShoppingCart/ShoppingCartButton";
-
-const HEADER_TITLE = "Hallo World";
+import { HEADER_TITLE } from "../../utils/consts";
 
 const Header = () => {
   return (

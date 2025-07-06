@@ -1,45 +1,45 @@
-import { useEffect } from "react";
-import { Route, Routes } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
 import styled from "styled-components";
 
-import ProductList from "./components/ProductList/ProductList";
+import { fetchProducts } from "./api/fetchProducts";
+import PageTitle from "./components/PageTitle/PageTitle";
 import CartDropdown from "./components/ShoppingCart/CartDropdown";
-import { useProducts } from "./hooks/useProducts";
 import Footer from "./layout/Footer/Footer";
 import Header from "./layout/Header/Header";
 import MainContent from "./layout/MainContent/MainContent";
 import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
 import ProductItemPage from "./pages/ProductItemPage/ProductItemPage";
+import ProductListingPage from "./pages/ProductListingPage/ProductListingPage";
 import { useStore } from "./store/store";
-
+import { ROUTES, STORE_NAME } from "./utils/consts";
 import "./App.css";
 
 const AppContainer = styled.div`
   display: grid;
-  grid-template-rows: auto auto 1fr auto; /* header, title, main, footer */
+  grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
 `;
 
-const StyledPageTitle = styled.h1`
-  width: 240px;
-  font-size: 2.5rem;
-  padding-top: 16px;
-  font-weight: bold;
-  color: ${({ theme }) => theme.colors.primaryDark};
-  margin: auto;
-`;
-
-const STORE_NAME = "Fingertips Store";
-
 const App = () => {
-  const { products, loading, error } = useProducts();
   const { setProductItems } = useStore();
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (products?.length > 0) {
-      setProductItems(products);
-    }
-  }, [products, setProductItems]);
+    const loadProducts = async () => {
+      try {
+        const products = await fetchProducts();
+        setProductItems(products);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadProducts();
+  }, [setProductItems]);
 
   if (error) {
     return <div>Error: {error}</div>;
@@ -48,12 +48,16 @@ const App = () => {
   return (
     <AppContainer>
       <Header />
-      <StyledPageTitle>{STORE_NAME}</StyledPageTitle>
+      <PageTitle>{STORE_NAME}</PageTitle>
       <MainContent>
         <Routes>
-          <Route path="/" element={<ProductList isLoading={loading} />} />
-          <Route path="/product/:id" element={<ProductItemPage />} />
-          <Route path="/checkout" element={<CheckoutPage />} />
+          <Route
+            path={ROUTES.HOME}
+            element={<ProductListingPage isLoading={loading} />}
+          />
+          <Route path={ROUTES.PRODUCT_DETAILS} element={<ProductItemPage />} />
+          <Route path={ROUTES.CHECKOUT} element={<CheckoutPage />} />
+          <Route path="*" element={<Navigate to={ROUTES.HOME} replace />} />
         </Routes>
       </MainContent>
       <CartDropdown />

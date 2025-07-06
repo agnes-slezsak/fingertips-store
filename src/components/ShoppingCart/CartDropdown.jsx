@@ -13,15 +13,16 @@ import {
 } from "./ShoppingCart.styles";
 import { useClickOutside } from "../../hooks/useClickOutside";
 import { useStore } from "../../store/store";
+import {
+  CART_TITLE,
+  TABLE_HEADERS,
+  TOTAL_ORDER_VALUE,
+  EMPTY_CART_MESSAGE,
+  CART_BUTTON_CHECKOUT,
+  ROUTES,
+} from "../../utils/consts";
 import { formatPrice } from "../../utils/formatPrice";
 import Button from "../Button/Button";
-
-const CART_TITLE = (count) =>
-  `You have ${count} item${count !== 1 ? "s" : ""} in your cart!`;
-const TABLE_HEADERS = ["Items", "Units", "Price"];
-const TOTAL_ORDER_VALUE = "Total Order Value";
-const EMPTY_CART_MESSAGE = "Your cart is empty!";
-const CART_BUTTON_CHECKOUT = "Checkout";
 
 const CartDropdown = () => {
   const { cartItems, isCartOpen, setIsCartOpen } = useStore();
@@ -43,7 +44,7 @@ const CartDropdown = () => {
 
   const handleCheckout = () => {
     setIsCartOpen(false);
-    navigate("/checkout");
+    navigate(ROUTES.CHECKOUT);
   };
 
   return (

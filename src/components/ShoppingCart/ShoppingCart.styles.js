@@ -71,7 +71,6 @@ export const CartTable = styled.table`
 `;
 
 export const TotalOrderValue = styled.td`
-  font-size: 1em;
   font-weight: bold;
   color: ${({ theme }) => theme.colors.darkGrey};
 `;

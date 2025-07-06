@@ -8,6 +8,11 @@ import {
   DetailsWrapper,
 } from "./ProductItemPage.styles";
 import { useStore } from "../../store/store";
+import {
+  BACK_TO_LISTING_PAGE_BUTTON_TEXT,
+  PRODUCT_NOT_FOUND_TEXT,
+  ROUTES,
+} from "../../utils/consts";
 
 const ProductItem = () => {
   const { id } = useParams();
@@ -16,7 +21,14 @@ const ProductItem = () => {
   const product = productItems.find((p) => String(p.id) === id);
 
   if (!product) {
-    return <div>Product not found.</div>;
+    return (
+      <>
+        <div>{PRODUCT_NOT_FOUND_TEXT}</div>
+        <BackButton onClick={() => navigate(ROUTES.HOME)}>
+          {BACK_TO_LISTING_PAGE_BUTTON_TEXT}
+        </BackButton>
+      </>
+    );
   }
 
   return (

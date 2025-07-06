@@ -7,18 +7,20 @@ import {
   CheckoutHeader,
   EmptyMessage,
   PageContainer,
+  TotalOrderValueCell,
 } from "./CheckoutPage.style";
 import Button from "../../components/Button/Button";
 import { useStore } from "../../store/store";
+import {
+  BACK_TO_LISTING_PAGE_BUTTON_TEXT,
+  CART_TITLE,
+  CHECKOUT_EMPTY_CART_MESSAGE,
+  CHECKOUT_PAYMENT_BUTTON_TEXT,
+  ROUTES,
+  TABLE_HEADERS,
+  TOTAL_ORDER_VALUE,
+} from "../../utils/consts";
 import { formatPrice } from "../../utils/formatPrice";
-
-const CART_TITLE = (count) =>
-  `You have ${count} item${count !== 1 ? "s" : ""} in your cart!`;
-const TABLE_HEADERS = ["Items", "Units", "Price"];
-const TOTAL_ORDER_VALUE = "Total Order Value";
-const EMPTY_CART_MESSAGE =
-  "Thank you for your purchase! Your cart is now empty.";
-const PAYMENT_BUTTON_TEXT = "Proceed to Payment";
 
 const CheckoutPage = () => {
   const { cartItems, clearCart } = useStore();
@@ -36,9 +38,9 @@ const CheckoutPage = () => {
   if (cartItems.length === 0) {
     return (
       <>
-        <EmptyMessage>{EMPTY_CART_MESSAGE}</EmptyMessage>
-        <BackButton onClick={() => navigate(-1)}>
-          ← Back to the listing page
+        <EmptyMessage>{CHECKOUT_EMPTY_CART_MESSAGE}</EmptyMessage>
+        <BackButton onClick={() => navigate(ROUTES.HOME)}>
+          {BACK_TO_LISTING_PAGE_BUTTON_TEXT}
         </BackButton>
       </>
     );
@@ -64,15 +66,20 @@ const CheckoutPage = () => {
             </tr>
           ))}
           <tr>
-            <td colSpan="2" style={{ fontWeight: "bold" }}>
+            <TotalOrderValueCell colSpan="2">
               {TOTAL_ORDER_VALUE}
-            </td>
-            <td>{formatPrice(totalOrderValue)}</td>
+            </TotalOrderValueCell>
+            <TotalOrderValueCell>
+              {formatPrice(totalOrderValue)}
+            </TotalOrderValueCell>
           </tr>
         </tbody>
       </CartTable>
       <CheckoutActions>
-        <Button label={PAYMENT_BUTTON_TEXT} onClick={handleProceedToPayment} />
+        <Button
+          label={CHECKOUT_PAYMENT_BUTTON_TEXT}
+          onClick={handleProceedToPayment}
+        />
       </CheckoutActions>
     </PageContainer>
   );

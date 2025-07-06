@@ -15,7 +15,7 @@ export const StyledProductCard = styled.div`
   box-shadow: 0 1px 4px ${({ theme }) => theme.colors.shadow};
 
   &:hover {
-    transform: scale(1.04) translateY(-2px);
+    transform: scale(1.02) translateY(-1px);
     box-shadow: 0 4px 16px ${({ theme }) => theme.colors.shadow};
   }
 `;

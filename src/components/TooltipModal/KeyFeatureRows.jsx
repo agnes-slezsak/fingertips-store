@@ -1,5 +1,5 @@
 import { StyledDataCell } from "./TooltipModal.styles";
-import { keyFeatureLabels } from "../../utils/consts";
+import { KeyFeatureLabels } from "../../utils/consts";
 import { formatBooleanToText } from "../../utils/formatBooleanToText";
 
 export const KeyFeatureRows = (keyFeatures = {}) => {
@@ -9,7 +9,7 @@ export const KeyFeatureRows = (keyFeatures = {}) => {
 
     return (
       <tr key={`${key}-${value}`}>
-        <StyledDataCell>{keyFeatureLabels[key]}</StyledDataCell>
+        <StyledDataCell>{KeyFeatureLabels[key]}</StyledDataCell>
         <StyledDataCell>{displayValue}</StyledDataCell>
       </tr>
     );

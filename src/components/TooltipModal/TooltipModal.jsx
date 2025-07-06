@@ -10,11 +10,12 @@ import {
   StyledModalDescription,
   StyledModalTable,
 } from "./TooltipModal.styles";
+import {
+  TOOLTIP_MODAL_HEADING_DESCRIPTION,
+  TOOLTIP_MODAL_HEADING_KEY_FEATURES,
+  TOOLTIP_MODAL_NO_KEY_FEATURES,
+} from "../../utils/consts";
 import ModalPortal from "../ModalPortal/ModalPortal";
-
-const MODAL_HEADING_DESCRIPTION = "Description";
-const MODAL_HEADING_KEY_FEATURES = "Key Features";
-const MODAL_NO_KEY_FEATURES = "No key features available.";
 
 const TooltipModal = React.memo(({ product, modalPosition }) => {
   const { imgUrl, name, description, key_features: keyFeatures = {} } = product;
@@ -28,7 +29,7 @@ const TooltipModal = React.memo(({ product, modalPosition }) => {
           {description && (
             <>
               <StyledModalHeading>
-                {MODAL_HEADING_DESCRIPTION}
+                {TOOLTIP_MODAL_HEADING_DESCRIPTION}
               </StyledModalHeading>
               <StyledModalDescription>{description}</StyledModalDescription>
             </>
@@ -36,7 +37,7 @@ const TooltipModal = React.memo(({ product, modalPosition }) => {
           {keyFeaturesRows.length > 0 ? (
             <KeyFeatures>
               <StyledModalHeading>
-                {MODAL_HEADING_KEY_FEATURES}
+                {TOOLTIP_MODAL_HEADING_KEY_FEATURES}
               </StyledModalHeading>
               <StyledModalTable>
                 <tbody>{keyFeaturesRows}</tbody>
@@ -45,9 +46,9 @@ const TooltipModal = React.memo(({ product, modalPosition }) => {
           ) : (
             <KeyFeatures>
               <StyledModalHeading>
-                {MODAL_HEADING_KEY_FEATURES}
+                {TOOLTIP_MODAL_HEADING_KEY_FEATURES}
               </StyledModalHeading>
-              <p>{MODAL_NO_KEY_FEATURES}</p>
+              <p>{TOOLTIP_MODAL_NO_KEY_FEATURES}</p>
             </KeyFeatures>
           )}
         </ModalContent>
