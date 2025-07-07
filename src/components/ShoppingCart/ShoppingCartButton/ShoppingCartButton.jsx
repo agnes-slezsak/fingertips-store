@@ -5,9 +5,9 @@ import {
   StyledBadge,
   StyledText,
 } from "./ShoppingCart.styles";
-import CartIcon from "../../assets/cart.svg";
-import { useStore } from "../../store/store";
-import { SHOPPING_CART_BUTTON_TEXT } from "../../utils/consts";
+import CartIcon from "../../../assets/cart.svg";
+import { useStore } from "../../../store/store";
+import { SHOPPING_CART_BUTTON_TEXT } from "../../../utils/consts";
 
 const ShoppingCartButton = () => {
   const { cartItemCount, toggleCart } = useStore();

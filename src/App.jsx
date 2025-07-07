@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 import { fetchProducts } from "./api/fetchProducts";
 import PageTitle from "./components/PageTitle/PageTitle";
-import CartDropdown from "./components/ShoppingCart/CartDropdown";
+import CartDropdown from "./components/ShoppingCart/CartDropdown/CartDropdown";
 import Footer from "./layout/Footer/Footer";
 import Header from "./layout/Header/Header";
 import MainContent from "./layout/MainContent/MainContent";
@@ -48,7 +48,7 @@ const App = () => {
   return (
     <AppContainer>
       <Header />
-      <PageTitle>{STORE_NAME}</PageTitle>
+      <PageTitle title={STORE_NAME} />
       <MainContent>
         <Routes>
           <Route

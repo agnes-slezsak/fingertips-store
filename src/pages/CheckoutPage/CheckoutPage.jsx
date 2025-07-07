@@ -86,7 +86,7 @@ const CheckoutPage = () => {
       </CartTable>
       <CheckoutActions>
         <Button
-          label={CHECKOUT_PAYMENT_BUTTON_TEXT}
+          buttonText={CHECKOUT_PAYMENT_BUTTON_TEXT}
           onClick={handleProceedToPayment}
         />
       </CheckoutActions>

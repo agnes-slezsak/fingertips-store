@@ -5,5 +5,5 @@ export const fetchProducts = async () => {
       "Failed to fetch products. Check connection or server settings."
     );
   }
-  return response.json();
+  return await response.json();
 };

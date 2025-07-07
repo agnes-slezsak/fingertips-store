@@ -38,7 +38,7 @@ export const ModalContent = styled.div`
   text-align: left;
 `;
 
-export const KeyFeatures = styled.div`
+export const KeyFeaturesList = styled.div`
   font-size: 0.85em;
   line-height: 1.6;
   color: ${({ theme }) => theme.colors.darkGrey};

@@ -30,11 +30,9 @@ export const StyledCardDetails = styled.div`
   margin: 8px 0;
 `;
 
-export const StyledProductTitle = styled.h3`
-  min-height: 2em;
+export const StyledProductTitle = styled.h4`
   margin: 0;
   text-align: center;
-  font-size: 1.1em;
   font-weight: 600;
 `;
 
@@ -54,6 +52,12 @@ export const StyledImageWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+`;
+
+export const StyledImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 `;
 
 export const StyledButtonWrapper = styled.div`

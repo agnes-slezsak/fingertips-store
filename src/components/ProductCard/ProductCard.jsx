@@ -1,24 +1,13 @@
-import { useNavigate } from "react-router-dom";
+import { generatePath, useNavigate } from "react-router-dom";
 
 import CardDetails from "./CardDetails";
 import CardImage from "./CardImage";
-import {
-  StyledButtonWrapper,
-  StyledProductCard,
-  TooltipWrapper,
-  TooltipIcon,
-} from "./ProductCard.styles";
-import HoverIcon from "../../assets/tooltip-hover.svg";
-import StaticIcon from "../../assets/tooltip-static.svg";
+import { StyledButtonWrapper, StyledProductCard } from "./ProductCard.styles";
+import ProductTooltip from "./ProductTooltip";
 import { useTooltip } from "../../hooks/useTooltip";
 import { useStore } from "../../store/store";
-import {
-  ADD_TO_CART_LABEL,
-  ROUTES,
-  TOOLTIP_ICON_ALT,
-} from "../../utils/consts";
+import { ADD_TO_CART_LABEL, ROUTES } from "../../utils/consts";
 import Button from "../Button/Button";
-import TooltipModal from "../TooltipModal/TooltipModal";
 
 const ProductCard = ({ product }) => {
   const { ref, position, isVisible, showTooltip, hideTooltip } = useTooltip();
@@ -31,28 +20,26 @@ const ProductCard = ({ product }) => {
   };
 
   const handleCardClick = () => {
-    navigate(ROUTES.PRODUCT_DETAILS.replace(":id", product.id));
+    navigate(generatePath(ROUTES.PRODUCT_DETAILS, { id: product.id }));
   };
 
   return (
     <StyledProductCard onClick={handleCardClick}>
-      <TooltipWrapper
+      <ProductTooltip
+        product={product}
         ref={ref}
-        onMouseEnter={showTooltip}
-        onMouseLeave={hideTooltip}
-      >
-        <TooltipIcon
-          src={isVisible ? HoverIcon : StaticIcon}
-          alt={TOOLTIP_ICON_ALT}
-        />
-        {isVisible && (
-          <TooltipModal product={product} modalPosition={position} />
-        )}
-      </TooltipWrapper>
-      <CardImage src={product.imgUrl} alt={product.name} />
+        position={position}
+        isVisible={isVisible}
+        showTooltip={showTooltip}
+        hideTooltip={hideTooltip}
+      />
+      <CardImage
+        src={product.imgUrl || "/images/no-image.jpg"}
+        alt={product.name}
+      />
       <CardDetails name={product.name} price={product.price} />
       <StyledButtonWrapper data-ignore-outside-click>
-        <Button label={ADD_TO_CART_LABEL} onClick={handleAddToCart} />
+        <Button buttonText={ADD_TO_CART_LABEL} onClick={handleAddToCart} />
       </StyledButtonWrapper>
     </StyledProductCard>
   );
