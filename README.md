@@ -32,3 +32,7 @@ Run ESLint to check for code style and errors:
 ```sh
 npm run lint
 ```
+
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/9a390b95-8039-4d20-bfdc-eac9ea0d94a4" />
+
+
