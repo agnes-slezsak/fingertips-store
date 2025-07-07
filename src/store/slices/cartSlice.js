@@ -19,6 +19,9 @@ export const createCartSlice = (set, get) => ({
       cartItems: newCartItems,
       cartItemCount: newCartItems.reduce((sum, item) => sum + item.units, 0),
     });
+
+    const addToast = get().addToast;
+    addToast(`"${item.name}" added to cart`);
   },
   removeItemFromCart: (id) => {
     const newCartItems = get().cartItems.filter(

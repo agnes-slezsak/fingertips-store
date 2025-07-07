@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { fetchProducts } from "./api/fetchProducts";
 import PageTitle from "./components/PageTitle/PageTitle";
 import CartDropdown from "./components/ShoppingCart/CartDropdown/CartDropdown";
+import ToastMessage from "./components/ToastMessage/ToastMessage";
 import Footer from "./layout/Footer/Footer";
 import Header from "./layout/Header/Header";
 import MainContent from "./layout/MainContent/MainContent";
@@ -61,6 +62,7 @@ const App = () => {
         </Routes>
       </MainContent>
       <CartDropdown />
+      <ToastMessage />
       <Footer />
     </AppContainer>
   );

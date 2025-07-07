@@ -8,6 +8,7 @@ export const theme = {
     cream: "#fff6e6",
     accentRed: "#d32f2f",
     accentRedBright: "#e53935",
+    successGreen: "#4caf50",
     shadow: "rgba(0, 0, 0, 0.2)",
   },
   // TODO: Add font sizes, spacing, and other design tokens

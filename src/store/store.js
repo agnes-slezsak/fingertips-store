@@ -6,6 +6,7 @@ import {
   createCartDropdownSlice,
   createCartSlice,
 } from "./slices";
+import { createToastMessageSlice } from "./slices/toastMessageSlice";
 
 // The devtools middleware enables inspection of Zustand state and actions in the Redux DevTools browser extension.
 export const useStore = create(
@@ -14,6 +15,7 @@ export const useStore = create(
       ...createProductSlice(set, get),
       ...createCartDropdownSlice(set, get),
       ...createCartSlice(set, get),
+      ...createToastMessageSlice(set, get),
     }),
     { name: "FingertipsStore" }
   )
